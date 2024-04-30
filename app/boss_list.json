@@ -1,0 +1,1842 @@
+{
+  "Title": "Listado de bosses",
+  "datos": [
+    {
+      "bossName": "Rey Slime",
+      "order": 1,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/King_Slime.png?version=3b3",
+      "bossSummon": {
+        "item": "Slime Crown",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/8/8b/Slime_Crown.png/revision/latest?cb=20201103042517&path-prefix=es",
+        "description": "Se craftea con 20 de gel y una corona de oro/platino en un altar demoniaco o matando 150 slimes durante la lluvia de slime"
+      },
+      "stats": {
+        "life1": 2000,
+        "life2": 2800,
+        "life3": 3570,
+        "armor": 10,
+        "damage": 40,
+        "damage2": 64,
+        "damage3": 64
+      },
+      "drop": [
+        {
+          "item": "Gorro de ninja",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Camisa de ninja",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Pantalones de ninja",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Solidificador",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Montura Slime",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo Rey Slime",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Máscara Rey Slime",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Gancho de slime",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Arma slime",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Gel real",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Reliquia Rey Slime",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Deleite real",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "armadura de platino",
+          "weapon": "Espada de Hierba"
+        },
+        {
+          "class": "Ranged",
+          "armor": "armadura de fósil",
+          "weapon": "arco de platino"
+        },
+        {
+          "class": "Magic",
+          "armor": "armadura para la selva",
+          "weapon": "Báculo de diamante/Rubí"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Abrigo de piel de copito",
+          "weapon": "Báculo de copito y Latespina"
+        }
+      ]
+    },
+    {
+      "bossName": "Ojo de Cthulhu",
+      "order": 3,
+      "bossImage": "https://ih1.redbubble.net/image.1910159079.5977/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+      "bossSummon": {
+        "item": "Ojo de aspecto sospechoso",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/2/24/Suspicious_Looking_Eye.png/revision/latest?cb=20160326005948&path-prefix=es",
+        "description": "Se craftea con 6 lentes en un altar demoniaco o en los cofre del mundo"
+      },
+      "stats": {
+        "life1": 2800,
+        "life2": 3640,
+        "life3": 4641,
+        "armor": 12,
+        "damage": 15,
+        "damage2": 30,
+        "damage3": 45
+      },
+      "drop": [
+        {
+          "item": "Mineral Carmesi",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Prismaticos",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo ojo de cthulhu",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara ojo de cthulhu",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Semillas carmesi",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Aviadores 0x33",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Sombrero de Badger",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Escudo de Cthulhu",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Reliquia Ojo de Cthulhu",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Ojo sonriente sospechoso",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "armadura de platino",
+          "weapon": "Espada de Hierba"
+        },
+        {
+          "class": "Ranged",
+          "armor": "armadura de fósil",
+          "weapon": "arco de platino"
+        },
+        {
+          "class": "Magic",
+          "armor": "armadura para la selva",
+          "weapon": "Báculo de diamante/Rubí"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Abrigo de piel de copito",
+          "weapon": "Báculo de copito y Latespina"
+        }
+      ]
+    },
+    {
+      "bossName": "Cerebro de Cthulhu",
+      "order": 5.1,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Brain_of_Cthulhu.png?version=3b3",
+      "bossSummon": {
+        "item": "Espina dorsal sangrienta",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/6/68/Bloody_Spine.png/revision/latest?cb=20200713203001&path-prefix=es",
+        "description": "Se craftea con 15 vertebras y 30 de polvo feroz en un altar demoniaco o destruyendo 3 corazones carmesí (solo en mundo con carmesí)"
+      },
+      "stats": {
+        "life1": 1250,
+        "life2": 2125,
+        "life3": 2709,
+        "armor": 14,
+        "damage": 30,
+        "damage2": 54,
+        "damage3": 54
+      },
+      "drop": [
+        {
+          "item": "Mineral Carmesi",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Muestra de tejido",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo de cerebro de cthulhu",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara cerebro de cthulhu",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Sonajero de hueso",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Cerebro de confusion",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Cerebro en un bote",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Reliquia de cerebro de Cthulhu",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "armadura de platino",
+          "weapon": "Espada de Hierba"
+        },
+        {
+          "class": "Ranged",
+          "armor": "armadura de fósil",
+          "weapon": "arco de platino"
+        },
+        {
+          "class": "Magic",
+          "armor": "armadura para la selva",
+          "weapon": "Báculo de diamante/Rubí"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Abrigo de piel de copito",
+          "weapon": "Báculo de copito y Latespina"
+        }
+      ]
+    },
+    {
+      "bossName": "Devoramundos",
+      "order": 5.2,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Eater_of_Worlds.png?version=3b3",
+      "bossSummon": {
+        "item": "Cebo de gusanos",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/c/c3/Worm_Food.png/revision/latest?cb=20180421164740&path-prefix=es",
+        "description": "Se craftea con 30 de polvo vil y 15 trozos de carne podrida en un altar demoniaco o destruyendo 3 orbes sombrios (solo en mundo con corrupcion)"
+      },
+      "stats": {
+        "life1": 9750,
+        "life2": 14700,
+        "life3": 18690,
+        "armor": 4,
+        "damage": 22,
+        "damage2": 48,
+        "damage3": 72
+      },
+      "drop": [
+        {
+          "item": "Mineral endemoniado",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Escama de las sombras",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Hueso del devorador",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo Devoramundos",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara del Devoramundos",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Bufanda de gusano",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Restos marchitantes",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Reliquia del Devoramundos",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "armadura de platino",
+          "weapon": "Espada de Hierba"
+        },
+        {
+          "class": "Ranged",
+          "armor": "armadura de fósil",
+          "weapon": "arco de platino"
+        },
+        {
+          "class": "Magic",
+          "armor": "armadura para la selva",
+          "weapon": "Báculo de diamante/Rubí"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Abrigo de piel de copito",
+          "weapon": "Báculo de copito y Latespina"
+        }
+      ]
+    },
+    {
+      "bossName": "Abeja reina",
+      "order": 8,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Queen_Bee.png?version=3b3",
+      "bossSummon": {
+        "item": "Abejaminacion",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/e/eb/Abeemination.png/revision/latest?cb=20150823164612&path-prefix=es",
+        "description": "Se craftea con 5 bloques de miel, 1 aguijon, 5 colmenas y 1 miel embotellada (debe invocarse en la jungla subterranea) o rompiendo una larva en las colmenas de la jungla"
+      },
+      "stats": {
+        "life1": 3400,
+        "life2": 4760,
+        "life3": 6069,
+        "armor": 8,
+        "damage": 30,
+        "damage2": 54,
+        "damage3": 81
+      },
+      "drop": [
+        {
+          "item": "Sombrero de abeja",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Camisa de abeja",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Pantalones de abeja",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Pistola de abejas",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Apicultora",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Vara colmenera",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Granabeja",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Panal",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Nectar",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo de Abeja reina",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara de abeja reina",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Cera de abeja",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Gafas melosas",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Rodillas de la abeja",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mochila colmena",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Miel brillante",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Reliquia de la Abeja reina",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "armadura fundida",
+          "weapon": "Espadon ardiente"
+        },
+        {
+          "class": "Ranged",
+          "armor": "armadura de fósil",
+          "weapon": "Minitiburon"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura de meteorito",
+          "weapon": "Báculo de diamante/Guadaña demoniaca"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura de obsidiana",
+          "weapon": "Báculo de copito/Báculo de diablillo y Latespina"
+        }
+      ]
+    },
+    {
+      "bossName": "Esqueletron",
+      "order": 9,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Skeletron.png?version=3b3",
+      "bossSummon": {
+        "item": "Muñeco de vudú del buhonero",
+        "quantity": 1,
+        "itemImage": "",
+        "description": "Se invoca hablando con el anciano en la mazmorra durante la noche o matando al buhonero con un Muñeco de vudú del buhonero en el inventario durante la noche (no crafteable)"
+      },
+      "stats": {
+        "life1": 4400,
+        "life2": 8800,
+        "life3": 11220,
+        "armor": 10,
+        "damage": 32,
+        "damage2": 70,
+        "damage3": 105
+      },
+      "drop": [
+        {
+          "item": "Mano de esqueletron",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara de esqueletron",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Libro de las calaveras",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo de Esqueletron",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Sofa de Chippy",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Guante de hueso",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Calavera poseida",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Reliquia de Esqueletron",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "armadura fundida",
+          "weapon": "Espadon ardiente"
+        },
+        {
+          "class": "Ranged",
+          "armor": "armadura de fósil",
+          "weapon": "Rodillas de la abeja/Furia fundida"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura de meteorito",
+          "weapon": "Báculo de diamante/Guadaña demoniaca"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura de obsidiana",
+          "weapon": "Báculo de diablillo y Latespina"
+        }
+      ]
+    },
+    {
+      "bossName": "Ciervpiclope",
+      "order": 10,
+      "bossImage": "https://static.wikia.nocookie.net/terraria/images/8/85/Deerclops.png/revision/latest?cb=20211119045442&path-prefix=es",
+      "bossSummon": {
+        "item": "Trasto de ciervo",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/1/14/Deer_Thing.png/revision/latest?cb=20211118223719&path-prefix=es",
+        "description": "Se craftea con 3 piel de copito, 5 mineral endemoniado/carmesi y 1 lente en un altar demoniaco. Se invoca en la tundra"
+      },
+      "stats": {
+        "life1": 7000,
+        "life2": 11900,
+        "life3": 15172,
+        "armor": 10,
+        "damage": 20,
+        "damage2": 40,
+        "damage3": 60
+      },
+      "drop": [
+        {
+          "item": "Lucy el hacha",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Hueso del ojo",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Ojoraguas",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofe de cierviclope",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara de cierviclope",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trasto de radio",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Bocina piumatica",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Veleta dolorosa",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Sabuesus protectus",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Chester de geco raro de Dizzy",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Casco de huesos",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Ojo de cierviclope",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Reliquia de cierviclope",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "armadura fundida",
+          "weapon": "Espadon ardiente"
+        },
+        {
+          "class": "Ranged",
+          "armor": "armadura de fósil",
+          "weapon": "Rodillas de la abeja/Furia fundida"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura de meteorito",
+          "weapon": "Báculo de diamante/Guadaña demoniaca"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura de obsidiana",
+          "weapon": "Báculo de diablillo y Latespina"
+        }
+      ]
+    },
+    {
+      "bossName": "Muro Carnoso",
+      "order": 11,
+      "bossImage": "https://steamuserimages-a.akamaihd.net/ugc/1654469313793705670/4D6071CF7B40AF177356EA6B6D836B38361E816F/",
+      "bossSummon": {
+        "item": "Muñeco vudu del guia",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/1/1b/Guide_Voodoo_Doll.png/revision/latest?cb=20140309114939&path-prefix=es",
+        "description": "Se invoca lanzando un muñeco vudu del guia al lava en el inframundo. El guia debe estar vivo y no en el inframundo.(Objeto no crafteable)"
+      },
+      "stats": {
+        "life1": 8000,
+        "life2": 11200,
+        "life3": 14280,
+        "armor": 18,
+        "damage": 50,
+        "damage2": 150,
+        "damage3": 225
+      },
+      "drop": [
+        {
+          "item": "Gran Martillo",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Espada despedazadora",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Fusil de asalto de precision",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Emblema de Hechicero",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Emblema de guerrero",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Emblema de guardian",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Emblema de invocador",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Fusil laser",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo muro carnoso",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara de muro carnoso",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Petardo",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Corazon demoniaco",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Calavera de cabra",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Reliquia del muro de carne",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "armadura fundida",
+          "weapon": "Filo de la noche"
+        },
+        {
+          "class": "Ranged",
+          "armor": "armadura de fósil",
+          "weapon": "Furia fundida/Arco de ala infernal"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura de meteorito",
+          "weapon": "Guadaña demoniaca"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura de obsidiana",
+          "weapon": "Báculo de diablillo y latigazo espinal"
+        }
+      ]
+    },
+    {
+      "bossName": "Reina slime",
+      "order": 13,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Queen_Slime.png?version=3b3",
+      "bossSummon": {
+        "item": "Cristal gelatinoso",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/1/13/Gelatin_Crystal.png/revision/latest?cb=20200517121124&path-prefix=es",
+        "description": "Usando un cristal gelatinoso (no crafteable) en el bioma de la bendicion, el cristal se puede encontrar en la bendicion subterranea"
+      },
+      "stats": {
+        "life1": 18000,
+        "life2": 28800,
+        "life3": 36720,
+        "armor": 26,
+        "damage": 60,
+        "damage2": 120,
+        "damage3": 180
+      },
+      "drop": [
+        {
+          "item": "Baculo de cuchillas",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo de reina slime",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara de reina slime",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Gancho de disonancia",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Sillin gelatinoso",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Capucha de asesino de cristal",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Camisa de asesino de cristal",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Pantalones de asesino de cristal",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Globo de slime brillante",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Gelatina volatil",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Reliquia de la reina slime",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "delicia real",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "Armadura Titanio/Adamantita",
+          "weapon": "Hoz de hielo/Espada helada"
+        },
+        {
+          "class": "Ranged",
+          "armor": "Armadura Titanio/Adamantita",
+          "weapon": "Arco de tormentas de Dedalo/Medula"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura prohibida/armadura titanio/adamantita",
+          "weapon": "Fractura celestial/Baculo de meteorito"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura de araña",
+          "weapon": "Baculo Sanguinario/Pirata/de cuchillas y latigo gelido"
+        }
+      ]
+    },
+    {
+      "bossName": "El Destructor",
+      "order": 14,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/The_Destroyer.png?version=3b3",
+      "bossSummon": {
+        "item": "Gusano mecanico",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/6/6d/Mechanical_Worm.png/revision/latest?cb=20160529173541&path-prefix=es",
+        "description": "Se craftea con 6 trozos de carne podrida, 5 lingotes de hierro/plomo y 6 almas de noche en un yunque de mithril/oricalco. Se invoca en la noche"
+      },
+      "stats": {
+        "life1": 80000,
+        "life2": 120000,
+        "life3": 153000,
+        "armor": 0,
+        "damage": 70,
+        "damage2": 280,
+        "damage3": 420
+      },
+      "drop": [
+        {
+          "item": "Alma de poder",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Lingote sagrado",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofe Destructor",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara del Destructor",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Plancha para gofres",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Pieza de vagoneta mecanica",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Reliquia del Destructor",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Sonda desactivada",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "Armadura de titanio/adamantita",
+          "weapon": "Espada helada/Discos de luz"
+        },
+        {
+          "class": "Ranged",
+          "armor": "Armadura de titanio/adamantita",
+          "weapon": "Arco de tormentas de Dedalo/Medula"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura prohibida/armadura titanio/adamantita",
+          "weapon": "Fractura celestial/Baculo de meteorito/Muñeca maldita de llamas malditas"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura de araña",
+          "weapon": "Baculo Sanguinario/Pirata/de cuchillas y latigo gelido"
+        }
+      ]
+    },
+    {
+      "bossName": "Los Gemelos",
+      "order": 15,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/The_Twins.png?version=3b3",
+      "bossSummon": {
+        "item": "Ojo mecanico",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/5/5e/Mechanical_Eye.png/revision/latest?cb=20160529173423&path-prefix=es",
+        "description": "Se craftea con 3 lentes, 5 hierro/plomo y 6 almas de luz en un yunque de mithril/oricalco. Se invoca en la noche"
+      },
+      "stats": {
+        "life1": "20000/23000",
+        "life2": "30000/34500",
+        "life3": "38250/43987",
+        "armor": 10,
+        "damage": "45/50",
+        "damage2": "76/85",
+        "damage3": "114/127"
+      },
+      "drop": [
+        {
+          "item": "Alma de vision",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Lingote sagrado",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo Retinator",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo espasmatizador",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara gemela",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Plancha para gofres",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Pieza de rueda mecanica",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Reliquia de los gemelos",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Par de ojos",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "Armadura de titanio/adamantita",
+          "weapon": "Espada helada/Discos de luz"
+        },
+        {
+          "class": "Ranged",
+          "armor": "Armadura de titanio/adamantita",
+          "weapon": "Arco de tormentas de Dedalo/Medula"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura prohibida/armadura titanio/adamantita",
+          "weapon": "Fractura celestial/Baculo de meteorito/Muñeca maldita de llamas malditas"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura de araña",
+          "weapon": "Baculo Sanguinario/Pirata/de cuchillas y latigo gelido"
+        }
+      ]
+    },
+    {
+      "bossName": "Esqueletron Mayor",
+      "order": 16,
+      "bossImage": "https://static.wikia.nocookie.net/terraria/images/6/60/Skeletron_Prime.png/revision/latest?cb=20170423205201&path-prefix=es",
+      "bossSummon": {
+        "item": "Craneo mecanico",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/c/c9/Mechanical_Skull.png/revision/latest?cb=20160529173708&path-prefix=es",
+        "description": "Se craftea con 30 huesos, 5 lingotes de hierro/plomo 3 almas de luz y 3 almas de noche en un yunque de mithril/oricalco Se invoca en la noche. Tiene un 10% de probabilidad de aparece despues de que un altar haya sido destruido."
+      },
+      "stats": {
+        "life1": 28000,
+        "life2": 42000,
+        "life3": 53550,
+        "armor": 24,
+        "damage": 47,
+        "damage2": 79,
+        "damage3": 119
+      },
+      "drop": [
+        {
+          "item": "Alma de terror",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Lingote sagrado",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo de Esqueletron mayor",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara de esqueletron mayor",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Plancha para gofres",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Pieza de bateria mecanica",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Reliquia de Esqueletron mayor",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Calavera robotica",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "Armadura de titanio/adamantita",
+          "weapon": "Espada helada/Discos de luz"
+        },
+        {
+          "class": "Ranged",
+          "armor": "Armadura de titanio/adamantita",
+          "weapon": "Arco de tormentas de Dedalo/Medula"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura prohibida/armadura titanio/adamantita",
+          "weapon": "Fractura celestial/Baculo de meteorito/Muñeca maldita de llamas malditas"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura de araña",
+          "weapon": "Baculo Sanguinario/Pirata/de cuchillas y latigo gelido"
+        }
+      ]
+    },
+    {
+      "bossName": "Plantera",
+      "order": 18,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Plantera.png?version=3b3",
+      "bossSummon": {
+        "item": "Bulbo de plantera",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/b/b8/Flor_de_Plantera.png/revision/latest?cb=20140426190811&path-prefix=es",
+        "description": "Se invoca rompiendo el bulbo de plantera, se encuentra en la jungla subterranea despues de matar a los 3 jefes mecanicos"
+      },
+      "stats": {
+        "life1": 30000,
+        "life2": 42000,
+        "life3": 53550,
+        "armor": 14,
+        "damage": 50,
+        "damage2": 114,
+        "damage3": 172
+      },
+      "drop": [
+        {
+          "item": "Lanzagranadas",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Relampago de ortigas",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo de Plantera",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara de Plantera",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Llave del templo",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Pistola de avispas",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Baculo pigmeo",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Lanzahojas",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Semillera",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Venus magnum",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Florecilla",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "El hacha",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Semillera(W)",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Gancho de espinas",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Saco de esporas",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Reliquia de Plantera",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Semillera de plantera",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "Armadura de clorofita/Tortuga",
+          "weapon": "Espada Terra/De la noche verdadera/ Excalibur verdadero"
+        },
+        {
+          "class": "Ranged",
+          "armor": "Armadura de clorofita/ helada",
+          "weapon": "Megatiburon"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura de clorofita/ sagrada",
+          "weapon": "Varita multicolor/ Arpa magica"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura de araña/Sagrada",
+          "weapon": "Baculo Sanguinario/baculo optico y Durendal"
+        }
+      ]
+    },
+    {
+      "bossName": "Golem",
+      "order": 19,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Golem.png?version=3b3",
+      "bossSummon": {
+        "item": "Celula de poder de lihzahrd",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/9/9d/Lihzahrd_Power_Cell.png/revision/latest?cb=20150911011500&path-prefix=es",
+        "description": "Se invoca en el templo de la selva despues de derrotar a Plantera, usando una celula de poder de lihzahrd en el altar de lizhahrd"
+      },
+      "stats": {
+        "life1": 15000,
+        "life2": 22500,
+        "life3": 28687,
+        "armor": 26,
+        "damage": 72,
+        "damage2": 115,
+        "damage3": 172
+      },
+      "drop": [
+        {
+          "item": "Piedra de sol",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Hacha de mano poseida",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Ojo del golem",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Stynger",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Picoserrucho",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Rayo calorifico",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Baculo de la tierra",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "puño de golem",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo de golem",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara de golem",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Caparazon de escarabajo",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "piedra brillante",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Reliquia de golem",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Golem guardian",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "Armadura de clorofita/Tortuga",
+          "weapon": "Espada Terra/ Martillo del paladin"
+        },
+        {
+          "class": "Ranged",
+          "armor": "Armadura de piñonita",
+          "weapon": "Megatiburon/ arco de clorofita"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura espectral",
+          "weapon": "Tenedor del infierno/ Esfera magnetica"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura tetrica/ armadura tiki",
+          "weapon": "Baculo pigmeo/de cuervo y cosecha oscura/Lucero del alba"
+        }
+      ]
+    },
+    {
+      "bossName": "Duke Fishron",
+      "order": 23,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Duke_Fishron.png?version=3b3",
+      "bossSummon": {
+        "item": "Gusano de trufa",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/3/3e/Truffle_Worm.png/revision/latest?cb=20140510051845&path-prefix=es",
+        "description": "Se invoca pescando en el oceano con un gusano de trufas en el inventario"
+      },
+      "stats": {
+        "life1": 60000,
+        "life2": 78000,
+        "life3": 99450,
+        "armor": 50,
+        "damage": 100,
+        "damage2": 140,
+        "damage3": 210
+      },
+      "drop": [
+        {
+          "item": "Cetro de agua",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascarca de Duque Fishron",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo de Duque Fishron",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Alas de Fishron",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Flairon",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Baculo de tempestades",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Tifon de cuchillas",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Arma de burbujas",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Tsunami",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trufa gambeante",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Reliquia de Duque Fishron",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Cerdo del mar",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "Armadura de escarabajo",
+          "weapon": "Espada Terra/ Hacha de mano poseida"
+        },
+        {
+          "class": "Ranged",
+          "armor": "Armadura de piñonita",
+          "weapon": "Megatiburon/ arco de clorofita"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura espectral",
+          "weapon": "Tenedor del infierno/ Cetro de murcielago"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura tetrica",
+          "weapon": "Baculo de cuervo y cosecha oscura/Lucero del alba"
+        }
+      ]
+    },
+    {
+      "bossName": "Emperador de la luz",
+      "order": 24,
+      "bossImage": "https://static.wikia.nocookie.net/terraria/images/c/c9/Empress_of_Light.gif/revision/latest/scale-to-width-down/120?cb=20200519130254&path-prefix=es",
+      "bossSummon": {
+        "item": "Crisopa prismatica",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/8/82/Prismatic_Lacewing.png/revision/latest?cb=20200517062824&path-prefix=es",
+        "description": "Se invoca matando a la crisopa, esta se encuentra en la superficie de la bendicion, entre las 7:30 PM y las 12:00 AM despues de haber derrotado a plantera.(SE RECOMIENDA HACERLO DE NOCHE)"
+      },
+      "stats": {
+        "life1": 70000,
+        "life2": 98000,
+        "life3": 124950,
+        "armor": 50,
+        "damage": 80,
+        "damage2": 184,
+        "damage3": 276
+      },
+      "drop": [
+        {
+          "item": "Melodia estelar",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Tinte prismatico",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo de emperatriz de la luz",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara de la emperatriz de la luz",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Ala de emperatriz",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Caleidoscopio",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Luz estelar",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Brillo nocturno",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Anochecer",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Terraprisma",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Cursos arcoiris",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Insignia del surco",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Reliquia de la Emperatriz de la luz",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Joya de luz",
+          "expert": false,
+          "master": false
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "Armadura de escarabajo",
+          "weapon": "Espada Terra/ Dragon volador"
+        },
+        {
+          "class": "Ranged",
+          "armor": "Armadura de piñonita",
+          "weapon": "Metralleta/ tsunami"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura espectral",
+          "weapon": "Tifon de cuchillas/ Ira de Betsy"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura tetrica",
+          "weapon": "Baculo de cuervo y Lucero del alba"
+        }
+      ]
+    },
+    {
+      "bossName": "Sectario Lunatico",
+      "order": 25,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Lunatic_Cultist.png?version=3b3",
+      "bossSummon": {
+        "item": "No Item",
+        "quantity": 1,
+        "itemImage": "No Item",
+        "description": "Se invoca matando a los cultistas en la mazmorra luego de derrrotar al golem"
+      },
+      "stats": {
+        "life1": 32000,
+        "life2": 48000,
+        "life3": 61200,
+        "armor": 42,
+        "damage": 50,
+        "damage2": 75,
+        "damage3": 112
+      },
+      "drop": [
+        {
+          "item": "Trofeo de sectario lunatico",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara de sectario lunatico",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Manipulador antiguo",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "reliquia de sectario lunatico",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Fragmento de tablilla",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "Armadura de escarabajo",
+          "weapon": "Espada Terra/ Dragon volador"
+        },
+        {
+          "class": "Ranged",
+          "armor": "Armadura de piñonita",
+          "weapon": "Metralleta/ tsunami"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura espectral",
+          "weapon": "Tifon de cuchillas/ Ira de Betsy"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura tetrica",
+          "weapon": "Baculo de cuervo y Lucero del alba"
+        }
+      ]
+    },
+    {
+      "bossName": "moonLord",
+      "order": 27,
+      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Moon_Lord.png?version=3b3",
+      "bossSummon": {
+        "item": "Sello celestial",
+        "quantity": 1,
+        "itemImage": "https://static.wikia.nocookie.net/terraria/images/0/0c/Celestial_Sigil.png/revision/latest?cb=20150713232451&path-prefix=es",
+        "description": "Se invoca derrotando a los 4 pilares o usando un Sello celestial"
+      },
+      "stats": {
+        "life1": 145000,
+        "life2": 217500,
+        "life3": 277310,
+        "armor": 70,
+        "damage": 150,
+        "damage2": 300,
+        "damage3": 300
+      },
+      "drop": [
+        {
+          "item": "ADEE",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Filomiau",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Ira estelar",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Mascara de moolord",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Arma de portales",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Terrariano",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Luminita",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Ultimo prisma",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Baculo de portal lunar",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Bengala lunar",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Baculo de cristal arcoiris",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Trofeo de moonlord",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Celebracion MK2",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Vagoneta Filomiau",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Joya Radiante",
+          "expert": false,
+          "master": false
+        },
+        {
+          "item": "Tabla estelar celestial",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Tentaculo de aspecto sospechoso",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Globo gravitacional",
+          "expert": true,
+          "master": true
+        },
+        {
+          "item": "Reliquia de moonlord",
+          "expert": false,
+          "master": true
+        },
+        {
+          "item": "Pedazo de calamar lunar",
+          "expert": false,
+          "master": true
+        }
+      ],
+      "classes": [
+        {
+          "class": "Melee",
+          "armor": "Armadura de escarabajo",
+          "weapon": "Erupcion solar/ amanecer"
+        },
+        {
+          "class": "Ranged",
+          "armor": "Armadura de piñonita",
+          "weapon": "Muerte aerea/ fantasma"
+        },
+        {
+          "class": "Magic",
+          "armor": "Armadura espectral",
+          "weapon": "Llama de nebulosa/ Arcanum de nebulosa"
+        },
+        {
+          "class": "Summoner",
+          "armor": "Armadura tetrica",
+          "weapon": "Terraprisma y Caleidoscopio"
+        }
+      ]
+    }
+  ]
+}
