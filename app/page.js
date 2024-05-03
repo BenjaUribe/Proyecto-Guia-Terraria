@@ -1,11 +1,12 @@
 "use client";
 
+import Image from 'next/image';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 
 export default function Home() {
   return (
     <main className="main">
-    <h1>Guia de Terraria</h1>
+      <h1 className='text'>Guia de Terraria</h1>
       <Tabs variant='soft-rounded' colorScheme='green'>
         <TabList>
           <Tab>Bosses</Tab>
