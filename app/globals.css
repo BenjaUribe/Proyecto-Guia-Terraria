@@ -1,5 +1,5 @@
 .main{
-    background-image: url(data/BG.jpeg);
+    background-image: url(data/BG.png);
     background-repeat: repeat; 
     background-position: center; 
     background-size: cover;
@@ -9,7 +9,7 @@
 }
 .text{
     font-size: 2em;
-    color: black;
+    color: white;
     font-style: italic;
     font-weight: bold;
 }

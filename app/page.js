@@ -12,7 +12,7 @@ export default function Home() {
           <Tab>Bosses</Tab>
           <Tab>Eventos</Tab>
         </TabList>
-        <TabPanels>
+        <TabPanels style={{color: 'white'}}>
             <TabPanel>
               <p> AQUI TODO LO DE LOS BOSSES </p>
             </TabPanel>
