@@ -3,8 +3,8 @@ import { Providers } from "./providers";
 
 
 export const metadata = {
-  title: "Ocupación de salas",
-  description: "Desafio",
+  title: "Guia Terraria",
+  description: "Pagina con el fin de proporcionar una guia sobre los bosses y eventos de Terraria",
 };
 
 export default function RootLayout({ children }) {
