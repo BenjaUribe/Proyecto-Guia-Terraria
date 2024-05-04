@@ -1,11 +1,12 @@
 .main{
     background-image: url(data/BG.png);
-    background-repeat: repeat; 
+    background-repeat: no-repeat;
     background-position: center; 
-    background-size: cover;
-    height: 1080px;
-    width: 100%;
+    background-size: cover; 
+    min-height: 100vh; 
+    width: 100%; 
     padding: 10px;
+    box-sizing: border-box;
 }
 .text{
     font-size: 2em;
@@ -13,3 +14,13 @@
     font-style: italic;
     font-weight: bold;
 }
+
+footer {
+    background-color: #16161d;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
