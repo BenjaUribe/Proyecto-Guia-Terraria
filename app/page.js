@@ -39,7 +39,7 @@ export default function Home() {
                       {jefes.datos.map((elemento) => (
                         <ListItem key={elemento.bossName}>
                           <Flex style={{alignItems: 'center',justifyContent: 'space-between'}}>
-                          <p>{elemento.order}.- {elemento.bossName}</p>
+                            <p>{elemento.order}.- {elemento.bossName}</p>
                           </Flex>
                         </ListItem>
                       ))}
@@ -52,6 +52,10 @@ export default function Home() {
               </TabPanel>
           </TabPanels>
         </Tabs>
+      </div>
+      
+      <div className="test">
+        <p> AQUI TIENE QUE IR EL COMPONENT YA SEA DE LOS BOSSES O EVENTOS</p> 
       </div>
 
       <footer>
