@@ -11,7 +11,6 @@ export default function Home() {
   const ListaJefes = () => {
     const [datosJefes, setDatosJefes] = useState(null);
   
-    // Carga los datos JSON cuando el componente se monta
     useEffect(() => {
       const obtenerDatos = async () => {
         const respuesta = await fetch('app/boss_list.json');
