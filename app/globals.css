@@ -24,3 +24,11 @@ footer {
     left: 0;
     width: 100%;
   }
+
+.listajefes {
+    background-color: rgba(46, 30, 118,0.2);
+    width: 205px;
+    padding: 5px;
+    margin: 10px;
+
+}
