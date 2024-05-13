@@ -2,7 +2,8 @@
 import jefes from "@/app/boss_list.json";
 
 import { useState, useEffect } from 'react';
-import { Tabs, TabList, TabPanels, Tab, TabPanel, List, ListItem, Box, Flex} from '@chakra-ui/react'
+import { Tabs, TabList, TabPanels, Tab, TabPanel, List, ListItem, Box, Flex} from '@chakra-ui/react';
+import JefesCom from './components/JefesCom.jsx';
 
 export default function Home() {
   const today = new Date();
@@ -55,7 +56,7 @@ export default function Home() {
       </div>
       
       <div className="test">
-        <p> AQUI TIENE QUE IR EL COMPONENT YA SEA DE LOS BOSSES O EVENTOS</p> 
+        <JefesCom></JefesCom>
       </div>
 
       <footer>
