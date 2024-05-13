@@ -4,7 +4,7 @@
     {
       "bossName": "Rey Slime",
       "order": 1,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/King_Slime.png?version=3b3",
+      "bossImage": "https://pm1.aminoapps.com/6893/d2dd493c2c8cf7225924ef9126e0e613f755ed7ar1-162-145v2_00.jpg",
       "bossSummon": {
         "item": "Slime Crown",
         "quantity": 1,
@@ -108,7 +108,7 @@
     {
       "bossName": "Ojo de Cthulhu",
       "order": 3,
-      "bossImage": "https://ih1.redbubble.net/image.1910159079.5977/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+      "bossImage": "https://pm1.aminoapps.com/7579/baa76a38869b62b5248ab5878dbebb033047d192r1-151-151v2_00.jpg",
       "bossSummon": {
         "item": "Ojo de aspecto sospechoso",
         "quantity": 1,
@@ -202,7 +202,7 @@
     {
       "bossName": "Cerebro de Cthulhu",
       "order": 5.1,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Brain_of_Cthulhu.png?version=3b3",
+      "bossImage": "https://pm1.aminoapps.com/6701/eb2ac0e302b10222e0befc1630df390ff91d47f1_hq.jpg",
       "bossSummon": {
         "item": "Espina dorsal sangrienta",
         "quantity": 1,
@@ -286,7 +286,7 @@
     {
       "bossName": "Devoramundos",
       "order": 5.2,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Eater_of_Worlds.png?version=3b3",
+      "bossImage": "https://static.wikia.nocookie.net/terraria/images/2/2d/Eater_of_Worlds.png",
       "bossSummon": {
         "item": "Cebo de gusanos",
         "quantity": 1,
@@ -370,7 +370,7 @@
     {
       "bossName": "Abeja reina",
       "order": 8,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Queen_Bee.png?version=3b3",
+      "bossImage": "https://static.wikia.nocookie.net/terraria_gamepedia/images/f/f0/Queen_Bee.png",
       "bossSummon": {
         "item": "Abejaminacion",
         "quantity": 1,
@@ -499,7 +499,7 @@
     {
       "bossName": "Esqueletron",
       "order": 9,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Skeletron.png?version=3b3",
+      "bossImage": "https://static.wikia.nocookie.net/terraria_gamepedia/images/e/ea/Skeletron.png",
       "bossSummon": {
         "item": "Muñeco de vudú del buhonero",
         "quantity": 1,
@@ -583,7 +583,7 @@
     {
       "bossName": "Ciervpiclope",
       "order": 10,
-      "bossImage": "https://static.wikia.nocookie.net/terraria/images/8/85/Deerclops.png/revision/latest?cb=20211119045442&path-prefix=es",
+      "bossImage": "https://static.wikia.nocookie.net/dont-starve-game/images/8/85/Deerclops.png",
       "bossSummon": {
         "item": "Trasto de ciervo",
         "quantity": 1,
@@ -692,7 +692,7 @@
     {
       "bossName": "Muro Carnoso",
       "order": 11,
-      "bossImage": "https://steamuserimages-a.akamaihd.net/ugc/1654469313793705670/4D6071CF7B40AF177356EA6B6D836B38361E816F/",
+      "bossImage": "https://pm1.aminoapps.com/6377/ea5143313631dd73c33b05b843309b4028742dbc_128.jpg",
       "bossSummon": {
         "item": "Muñeco vudu del guia",
         "quantity": 1,
@@ -806,7 +806,7 @@
     {
       "bossName": "Reina slime",
       "order": 13,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Queen_Slime.png?version=3b3",
+      "bossImage": "https://static.wikia.nocookie.net/terraria_gamepedia/images/7/79/Queen_Slime.png",
       "bossSummon": {
         "item": "Cristal gelatinoso",
         "quantity": 1,
@@ -910,7 +910,7 @@
     {
       "bossName": "El Destructor",
       "order": 14,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/The_Destroyer.png?version=3b3",
+      "bossImage": "https://static.wikia.nocookie.net/terraria_gamepedia/images/4/4f/The_Destroyer.png",
       "bossSummon": {
         "item": "Gusano mecanico",
         "quantity": 1,
@@ -994,7 +994,7 @@
     {
       "bossName": "Los Gemelos",
       "order": 15,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/The_Twins.png?version=3b3",
+      "bossImage": "https://static.wikia.nocookie.net/terraria_gamepedia/images/1/1a/The_Twins.png",
       "bossSummon": {
         "item": "Ojo mecanico",
         "quantity": 1,
@@ -1083,7 +1083,7 @@
     {
       "bossName": "Esqueletron Mayor",
       "order": 16,
-      "bossImage": "https://static.wikia.nocookie.net/terraria/images/6/60/Skeletron_Prime.png/revision/latest?cb=20170423205201&path-prefix=es",
+      "bossImage": "https://static.wikia.nocookie.net/terraria/images/6/60/Skeletron_Prime.png",
       "bossSummon": {
         "item": "Craneo mecanico",
         "quantity": 1,
@@ -1167,7 +1167,7 @@
     {
       "bossName": "Plantera",
       "order": 18,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Plantera.png?version=3b3",
+      "bossImage": "https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b1/Plantera.png",
       "bossSummon": {
         "item": "Bulbo de plantera",
         "quantity": 1,
@@ -1296,7 +1296,7 @@
     {
       "bossName": "Golem",
       "order": 19,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Golem.png?version=3b3",
+      "bossImage": "https://static.wikia.nocookie.net/terraria_gamepedia/images/c/ce/Golem.png",
       "bossSummon": {
         "item": "Celula de poder de lihzahrd",
         "quantity": 1,
@@ -1410,7 +1410,7 @@
     {
       "bossName": "Duke Fishron",
       "order": 23,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Duke_Fishron.png?version=3b3",
+      "bossImage": "https://static.wikia.nocookie.net/terraria_gamepedia/images/0/0b/Duke_Fishron.png",
       "bossSummon": {
         "item": "Gusano de trufa",
         "quantity": 1,
@@ -1514,7 +1514,7 @@
     {
       "bossName": "Emperador de la luz",
       "order": 24,
-      "bossImage": "https://static.wikia.nocookie.net/terraria/images/c/c9/Empress_of_Light.gif/revision/latest/scale-to-width-down/120?cb=20200519130254&path-prefix=es",
+      "bossImage": "https://portalvirtualreality.ru/wp-content/uploads/2020/05/Императрица-Света.png",
       "bossSummon": {
         "item": "Crisopa prismatica",
         "quantity": 1,
@@ -1628,7 +1628,7 @@
     {
       "bossName": "Sectario Lunatico",
       "order": 25,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Lunatic_Cultist.png?version=3b3",
+      "bossImage": "https://static.wikia.nocookie.net/terraria_gamepedia/images/0/0a/Lunatic_Cultist.png",
       "bossSummon": {
         "item": "No Item",
         "quantity": 1,
@@ -1697,7 +1697,7 @@
     {
       "bossName": "MoonLord",
       "order": 27,
-      "bossImage": "https://terraria.gamepedia.com/media/terraria.gamepedia.com/4/4e/Moon_Lord.png?version=3b3",
+      "bossImage": "https://static.wikia.nocookie.net/terraria_gamepedia/images/7/7f/Moon_Lord.png",
       "bossSummon": {
         "item": "Sello celestial",
         "quantity": 1,
