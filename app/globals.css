@@ -36,9 +36,40 @@ footer {
 }
 
 /*test para comprobar separaciones el css va a cambiar*/
+/*background-color: rgba(46, 30, 118,0.4);*/
 .test {
-    background-color: rgba(46, 30, 118,0.4);
     margin: 10px;
     max-height: 90%;
     color: white;
+}	
+
+.compJefes{
+    display: grid;
+    grid-template-rows: (3,1);
+    background-color:  rgba(22,22,29,0.8);
+    width: 75%;
+    height: 100%;
+}
+
+.topComp{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.imageJefes{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}	
+
+
+.dataJefes{  
+    height: auto;
+}	
+.dataJefes p{
+    padding-bottom: 30px;
+    
 }	

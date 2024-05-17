@@ -1,16 +1,16 @@
 "use client";
 import jefes from "@/app/boss_list.json";
+import JefesCom from './components/JefesCom.jsx';
+
 
 import { useState, useEffect } from 'react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel, List, ListItem, Box, Flex} from '@chakra-ui/react';
-import JefesCom from './components/JefesCom.jsx';
 
 export default function Home() {
   const today = new Date();
   const currentYear = today.getFullYear();
 
   const ListaJefes = () => {
-    const [datosJefes, setDatosJefes] = useState(null);
   
     useEffect(() => {
       const obtenerDatos = async () => {
@@ -56,7 +56,7 @@ export default function Home() {
       </div>
       
       <div className="test">
-        <JefesCom></JefesCom>
+        <JefesCom sProp = "Los Gemelos"/>
       </div>
 
       <footer>
