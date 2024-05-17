@@ -50,6 +50,19 @@ export default function Home() {
               </TabPanel>
               <TabPanel>
                 <p> AQUI TODO LO DE LOS EVENTOS </p>
+                <Box className="listajefes">
+                  {eventos && eventos.datos && (
+                    <List>
+                      {eventos.datos.map((elemento) => (
+                        <ListItem key={elemento.eventName}>
+                          <Flex style={{alignItems: 'center',justifyContent: 'space-between'}}>
+                            <p>{elemento.order}.- {elemento.eventName}</p>
+                          </Flex>
+                        </ListItem>
+                      ))}
+                    </List>
+                  )}
+                </Box>
               </TabPanel>
           </TabPanels>
         </Tabs>
