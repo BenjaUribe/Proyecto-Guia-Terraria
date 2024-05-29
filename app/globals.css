@@ -1,5 +1,5 @@
 .main{
-    background-image: url(data/BG.png);
+    background-image: url(../public/data/BG.png);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover; 
@@ -32,12 +32,18 @@ footer {
     width: 205px;
     padding: 5px;
     margin: 10px;
+}
 
+.listaEventos {
+    background-color: rgba(46, 30, 118,0.2);
+    width: 205px;
+    padding: 5px;
+    margin: 10px;
 }
 
 /*test para comprobar separaciones el css va a cambiar*/
 /*background-color: rgba(46, 30, 118,0.4);*/
-.test {
+.components {
     margin: 10px;
     max-height: 90%;
     color: white;
@@ -58,7 +64,6 @@ footer {
 
 
 .imageJefes{
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,6 +75,20 @@ footer {
     height: auto;
 }	
 .dataJefes p{
-    padding-bottom: 30px;
-    
+    padding-bottom: 30px;  
 }	
+
+.compEvent{
+    display: grid;
+    grid-template-rows: (3,1);
+    background-color:  rgba(22,22,29,0.8);
+    width: 75%;
+    height: 100%;
+}
+
+.imageEvent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}

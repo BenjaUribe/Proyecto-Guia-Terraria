@@ -6,7 +6,8 @@
       "order": 2,
       "summon": "El Dios antorcha se invoca cuando se ponen 101 antorchas bajo tierra",
       "loot": [{ "item": "Favor del Dios antorcha" }],
-      "eventBosses": null
+      "eventBosses": null,
+      "eventImage": "data/events/Dios_Antorcha.png"
     },
     {
       "eventName": "Luna de sangre",
@@ -39,7 +40,8 @@
         { "item": "Cometa de conejo corrompida" },
         { "item": "Cometa de conejo carmesi" }
       ],
-      "eventBosses": null
+      "eventBosses": null,
+      "eventImage": "data/events/Luna_de_Sangre.png"
     },
     {
       "eventName": "Ejercito de duendes",
@@ -52,7 +54,8 @@
         { "item": "Muñeca maldita de llamas oscuras" },
         { "item": "Cuchillo de llamas oscuras" }
       ],
-      "eventBosses": null
+      "eventBosses": null,
+      "eventImage": "data/events/Ejercito_de_Duendes.png"
     },
     {
       "eventName": "Ejercito del antiguo",
@@ -97,7 +100,8 @@
         { "Boss": "Mago negro (1°)" },
         { "Boss": "Ogro (2°)" },
         { "Boss": "Betsy (3°)" }
-      ]
+      ],
+      "eventImage": "data/events/Ejercito_del_Antiguo.png"
     },
     {
       "eventName": "Invasion pirata",
@@ -143,7 +147,8 @@
         { "item": "Reliquia del Holandes Volador" },
         { "item": "El punto negro" }
       ],
-      "eventBosses": [{ "Boss": "Holandes Volador" }]
+      "eventBosses": [{ "Boss": "Holandes Volador" }],
+      "eventImage": "data/events/Invasion_Pirata.png"
     },
     {
       "eventName": "Eclipse",
@@ -178,7 +183,8 @@
         { "item": "Colegas" },
         { "item": "Sol de medianoche" }
       ],
-      "eventBosses": null
+      "eventBosses": null,
+      "eventImage": "data/events/Eclipse.png"
     },
     {
       "eventName": "Luna calabaza",
@@ -212,7 +218,8 @@
         { "item": "Vela aromatica de calabaza" },
         { "item": "escoba de bruja" }
       ],
-      "eventBosses": [{ "Boss": "Arbol de luto" }, { "Boss": "Rey calabaza" }]
+      "eventBosses": [{ "Boss": "Arbol de luto" }, { "Boss": "Rey calabaza" }],
+      "eventImage": "data/events/Luna_de_Calabaza.png"
     },
     {
       "eventName": "Luna gélida",
@@ -249,7 +256,8 @@
         { "Boss": "Gritoeterno" },
         { "Boss": "Papá-NK1" },
         { "Boss": "Reina de hielo" }
-      ]
+      ],
+      "eventImage": "data/events/Luna_Gelida.png"
     },
     {
       "eventName": "Locura marciana",
@@ -278,7 +286,8 @@
         { "item": "Reliquia del platillo marciano" },
         { "item": "Monopatin cosmico" }
       ],
-      "eventBosses": [{ "Boss": "Platillo marciano" }]
+      "eventBosses": [{ "Boss": "Platillo marciano" }],
+      "eventImage": "data/events/Locura_Marciana.png"
     },
     {
       "eventName": "Lunar Event",
@@ -290,7 +299,8 @@
         { "item": "Fragmento de polvo estelas" },
         { "item": "Fragmento solar" }
       ],
-      "eventBosses": null
+      "eventBosses": null,
+      "eventImage": "data/events/Lunar_Event.png"
     }
   ]
 }

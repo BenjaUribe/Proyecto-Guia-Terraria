@@ -6,6 +6,7 @@ function JefesCom({ sProp }) {
   const def = currentBoss.stats.armor;
   const atq = currentBoss.stats.damage;
 
+
   return (
     <main className="compJefes">
 

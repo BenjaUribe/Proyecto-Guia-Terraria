@@ -1,10 +1,19 @@
 "use client";
 import jefes from "@/app/boss_list.json";
+import eventos from "@/app/event_list.json";
 import JefesCom from './components/JefesCom.jsx';
+import EventCom from './components/EventCom.jsx';
 
 
 import { useState, useEffect } from 'react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel, List, ListItem, Box, Flex} from '@chakra-ui/react';
+
+
+
+/*
+<eventCom sProp = "Luna de sangre"/>
+<JefesCom sProp = "Los Gemelos"/> 
+*/
 
 export default function Home() {
   const today = new Date();
@@ -50,7 +59,7 @@ export default function Home() {
               </TabPanel>
               <TabPanel>
                 <p> AQUI TODO LO DE LOS EVENTOS </p>
-                <Box className="listajefes">
+                <Box className="listaEventos">
                   {eventos && eventos.datos && (
                     <List>
                       {eventos.datos.map((elemento) => (
@@ -68,12 +77,12 @@ export default function Home() {
         </Tabs>
       </div>
       
-      <div className="test">
-        <JefesCom sProp = "Los Gemelos"/>
+      <div className="components">
+        <EventCom sProp = "Luna de sangre"/>
       </div>
 
       <footer>
-        <p> Copyright © {currentYear} "Inserte nombre". Chile.</p>
+        <p> Copyright © {currentYear} "Esquizos". Chile.</p>
       </footer>
     </main>
   );
