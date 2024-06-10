@@ -78,7 +78,7 @@ export default function Home() {
       </div>
       
       <div className="components">
-        <EventCom sProp = "Luna de sangre"/>
+        <JefesCom sProp = "Rey Slime"/> 
       </div>
 
       <footer>
