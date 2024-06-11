@@ -222,7 +222,7 @@
       "eventImage": "data/events/Luna_de_Calabaza.png"
     },
     {
-      "eventName": "Luna gélida",
+      "eventName": "Luna gelida",
       "order": 21,
       "summon": "Invocada con Regalo Asqueroso durante la noche, se craftea con 20 de seda, 5 ectoplasma y 5 almas de terror en un yunque de mithril/oricalco. Dura hasta el amanecer.",
       "loot": [

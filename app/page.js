@@ -3,12 +3,9 @@ import jefes from "@/app/boss_list.json";
 import eventos from "@/app/event_list.json";
 import JefesCom from './components/JefesCom.jsx';
 import EventCom from './components/EventCom.jsx';
-
-
+import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel, List, ListItem, Box, Flex} from '@chakra-ui/react';
-
-
 
 /*
 <eventCom sProp = "Luna de sangre"/>
@@ -18,18 +15,32 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel, List, ListItem, Box, Flex} fro
 export default function Home() {
   const today = new Date();
   const currentYear = today.getFullYear();
+  const router = useRouter();
+  const [itemSeleccionado, setItemSeleccionado] = useState({ tipo:'jefe', nombre:'Rey Slime' })
+  
+  useEffect(() => {
+    if (router.query) {
+      const { tipo, nombre } = router.query;
+      if (tipo && nombre) {
+        setItemSeleccionado({ tipo, nombre });
+      }
+    }
+  }, [router.query]);
 
-  const ListaJefes = () => {
-  
-    useEffect(() => {
-      const obtenerDatos = async () => {
-        const respuesta = await fetch('app/boss_list.json');
-        const datos = await respuesta.json();
-        setDatosJefes(datos);
-      };
-  
-      obtenerDatos();
-    }, []);}
+  const manejarClick = (tipo, nombre) => {
+    const formattedName = nombre.toLowerCase().replace(/\s+/g, '-');
+    router.push(`/?tipo=${tipo}&nombre=${formattedName}`, undefined, { shallow: true });
+    setItemSeleccionado({ tipo, nombre });
+  };
+
+  const mostrarInfo = () => {
+    if (itemSeleccionado.tipo === 'jefe'){
+      return <JefesCom sProp={itemSeleccionado.nombre}/>;
+    } else if (itemSeleccionado.tipo === 'evento'){
+      return <EventCom sProp={itemSeleccionado.nombre}/>;
+    }
+    return null;
+  };
 
   return (
     <main className="main">
@@ -49,7 +60,9 @@ export default function Home() {
                       {jefes.datos.map((elemento) => (
                         <ListItem key={elemento.bossName}>
                           <Flex style={{alignItems: 'center',justifyContent: 'space-between'}}>
-                            <p>{elemento.order}.- {elemento.bossName}</p>
+                            <a href="#" onClick={() => manejarClick('jefe', elemento.bossName)}>
+                              {elemento.order}.- {elemento.bossName}
+                            </a>
                           </Flex>
                         </ListItem>
                       ))}
@@ -65,7 +78,9 @@ export default function Home() {
                       {eventos.datos.map((elemento) => (
                         <ListItem key={elemento.eventName}>
                           <Flex style={{alignItems: 'center',justifyContent: 'space-between'}}>
-                            <p>{elemento.order}.- {elemento.eventName}</p>
+                            <a href="#" onClick={() => manejarClick('evento', elemento.eventName)}>
+                              {elemento.order}.- {elemento.eventName}
+                            </a>
                           </Flex>
                         </ListItem>
                       ))}
@@ -78,11 +93,11 @@ export default function Home() {
       </div>
       
       <div className="components">
-        <JefesCom sProp = "Rey Slime"/> 
+        {mostrarInfo()}
       </div>
 
       <footer>
-        <p> Copyright © {currentYear} "Esquizos". Chile.</p>
+        <p> Copyright © {currentYear} "Exquizos". Chile.</p>
       </footer>
     </main>
   );
