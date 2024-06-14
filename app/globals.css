@@ -32,6 +32,8 @@ footer {
     width: 205px;
     padding: 5px;
     margin: 10px;
+    flex: 1; 
+    margin-right: 10px; 
 }
 
 .listaEventos {
@@ -39,6 +41,8 @@ footer {
     width: 205px;
     padding: 5px;
     margin: 10px;
+    flex: 1; 
+    margin-right: 10px; 
 }
 
 /*test para comprobar separaciones el css va a cambiar*/
@@ -152,3 +156,14 @@ footer {
 .contInf{
     flex: 1;
 }
+.lista{
+    display: flex; 
+    margin: 10px;
+    max-height: 90%;
+    color: white;
+}
+.checkboxes-container {
+    flex: 0; 
+    width: fit-content; 
+    margin-top: 15px; 
+  }

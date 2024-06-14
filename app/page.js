@@ -3,6 +3,8 @@ import jefes from "@/app/boss_list.json";
 import eventos from "@/app/event_list.json";
 import JefesCom from './components/JefesCom.jsx';
 import EventCom from './components/EventCom.jsx';
+import  CheckBoxGroup  from './components/CheckBoxCom.jsx';
+import  CheckBoxGroup2  from './components/CheckBoxCom2.jsx';
 import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel, List, ListItem, Box, Flex} from '@chakra-ui/react';
@@ -53,6 +55,7 @@ export default function Home() {
           </TabList>
           <TabPanels style={{color: 'white'}}>
               <TabPanel>
+              <div className="lista">
                 <Box className="listajefes">
                   {jefes && jefes.datos && (
                     <List>
@@ -67,9 +70,14 @@ export default function Home() {
                       ))}
                     </List>
                   )}
-                </Box>
+                   </Box>
+                  <div className="checkboxes-container">
+                    <CheckBoxGroup numCheckboxes={jefes?.datos?.length} />
+                  </div>
+                </div>
               </TabPanel>
               <TabPanel>
+                <div className="lista">
                 <Box className="listaEventos">
                   {eventos && eventos.datos && (
                     <List>
@@ -85,6 +93,10 @@ export default function Home() {
                     </List>
                   )}
                 </Box>
+                <div className="checkboxes-container">
+                    <CheckBoxGroup2 numCheckboxes={eventos?.datos?.length} />
+                  </div>
+                </div>
               </TabPanel>
           </TabPanels>
         </Tabs>

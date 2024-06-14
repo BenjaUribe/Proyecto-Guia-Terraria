@@ -12,7 +12,10 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "cookie": "^0.6.0",
     "framer-motion": "^11.1.9",
+    "js-cookie": "^3.0.5",
+    "metadata": "^0.1.0",
     "next": "^14.2.3",
     "react": "^18",
     "react-dom": "^18"
