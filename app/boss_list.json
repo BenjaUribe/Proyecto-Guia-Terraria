@@ -6,10 +6,11 @@
       "order": 1,
       "bossImage": "/data/bosses/Rey_Slime.png",
       "bossSummon": {
-        "item": "Slime Crown",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/8/8b/Slime_Crown.png/revision/latest?cb=20201103042517&path-prefix=es",
-        "description": "Se craftea con 20 de gel y una corona de oro/platino en un altar demoniaco o matando 150 slimes durante la lluvia de slime"
+        "item": "Corona de slime",
+        "description": "Se invoca usando una corona de slime o matando 150 slimes durante la lluvia de slime",
+        "craft": "Se craftea con 20 de gel y una corona de oro/platino en un altar demoniaco",
+        "summonImage": "/data/boss_summon/Rey_Slime.png",
+        "biome": "/data/biomes/bosque.png"
       },
       "stats": {
         "life1": 2000,
@@ -111,9 +112,10 @@
       "bossImage": "/data/bosses/Ojo_de_Cthulhu.png",
       "bossSummon": {
         "item": "Ojo de aspecto sospechoso",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/2/24/Suspicious_Looking_Eye.png/revision/latest?cb=20160326005948&path-prefix=es",
-        "description": "Se craftea con 6 lentes en un altar demoniaco o en los cofre del mundo"
+        "description": "Se invoca usando un ojo de aspecto sospechoso durante la noche, el invocador se puede encontrar en los cofres de mundo",
+        "craft": "Se craftea con 6 lentes en un altar demoniaco",
+        "summonImage": "/data/boss_summon/Ojo_De_Cthulhu.png",
+        "biome": "/data/biomes/bosque.png"
       },
       "stats": {
         "life1": 2800,
@@ -205,9 +207,10 @@
       "bossImage": "/data/bosses/Cerebro_de_Cthulhu.png",
       "bossSummon": {
         "item": "Espina dorsal sangrienta",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/6/68/Bloody_Spine.png/revision/latest?cb=20200713203001&path-prefix=es",
-        "description": "Se craftea con 15 vertebras y 30 de polvo feroz en un altar demoniaco o destruyendo 3 corazones carmesí (solo en mundo con carmesí)"
+        "description": "Se invoca utilizando una espina dorsal sangrienta en el carmesi o destruyendo 3 corazones carmesí (solo en mundo con carmesí)",
+        "craft": "Se craftea con 15 vertebras y 30 de polvo feroz en un altar demoniaco",
+        "summonImage": "/data/boss_summon/Cerebro_de_Cthulhu.png",
+        "biome": "/data/biomes/carmesi.png"
       },
       "stats": {
         "life1": 1250,
@@ -289,9 +292,10 @@
       "bossImage": "/data/bosses/Devoramundos.png",
       "bossSummon": {
         "item": "Cebo de gusanos",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/c/c3/Worm_Food.png/revision/latest?cb=20180421164740&path-prefix=es",
-        "description": "Se craftea con 30 de polvo vil y 15 trozos de carne podrida en un altar demoniaco o destruyendo 3 orbes sombrios (solo en mundo con corrupcion)"
+        "description": "Se invoca utilizando un cebo de gusano en la corrupcion o destruyendo 3 orbes sombrios (solo en mundo con corrupcion)",
+        "craft": "Se craftea con 30 de polvo vil y 15 trozos de carne podrida en un altar demoniaco",
+        "summonImage": "/data/boss_summon/Devoramundos.png",
+        "biome": "/data/biomes/corrupcion.png"
       },
       "stats": {
         "life1": 9750,
@@ -373,9 +377,10 @@
       "bossImage": "/data/bosses/Abeja_reina.png",
       "bossSummon": {
         "item": "Abejaminacion",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/e/eb/Abeemination.png/revision/latest?cb=20150823164612&path-prefix=es",
-        "description": "Se craftea con 5 bloques de miel, 1 aguijon, 5 colmenas y 1 miel embotellada (debe invocarse en la jungla subterranea) o rompiendo una larva en las colmenas de la jungla"
+        "description": "Se invoca utilizando la abejaminacion en la jungla subterrania o rompiendo una larva en las colmenas de la jungla",
+        "craft": "Se crafeta con 5 bloque sde miel, 1 aguijon, 5 colmenas y 1 miel embotellada",
+        "summonImage": "/data/boss_summon/Abeja_Reina.png",
+        "biome": "/data/biomes/colmena.png"
       },
       "stats": {
         "life1": 3400,
@@ -502,9 +507,10 @@
       "bossImage": "/data/bosses/Esqueletron.png",
       "bossSummon": {
         "item": "Muñeco de vudú del buhonero",
-        "quantity": 1,
-        "itemImage": "",
-        "description": "Se invoca hablando con el anciano en la mazmorra durante la noche o matando al buhonero con un Muñeco de vudú del buhonero en el inventario durante la noche (no crafteable)"
+        "description": "Se invoca hablando con el anciano en la mazmorra durante la noche o matando al buhonero con un Muñeco de vudú del buhonero en el inventario durante la noche",
+        "craft": "Item no crafteable",
+        "summonImage": "/data/boss_summon/Skeletron.png",
+        "biome": "/data/biomes/dungeon.png"
       },
       "stats": {
         "life1": 4400,
@@ -586,9 +592,10 @@
       "bossImage": "/data/bosses/Cierviclope.png",
       "bossSummon": {
         "item": "Trasto de ciervo",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/1/14/Deer_Thing.png/revision/latest?cb=20211118223719&path-prefix=es",
-        "description": "Se craftea con 3 piel de copito, 5 mineral endemoniado/carmesi y 1 lente en un altar demoniaco. Se invoca en la tundra"
+        "description": "Se invoca usando un trasto de ciervo en la tundra",
+        "craft": "Se craftea con 3 piel de copito, 5 mineral endemoniado/carmesi y 1 lente en un altar demoniaco",
+        "summonImage": "/data/boss_summon/cierviclope.png",
+        "biome": "/data/biomes/tundra.png"
       },
       "stats": {
         "life1": 7000,
@@ -695,9 +702,10 @@
       "bossImage": "/data/bosses/Muro_Carnoso.png",
       "bossSummon": {
         "item": "Muñeco vudu del guia",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/1/1b/Guide_Voodoo_Doll.png/revision/latest?cb=20140309114939&path-prefix=es",
-        "description": "Se invoca lanzando un muñeco vudu del guia al lava en el inframundo. El guia debe estar vivo y no en el inframundo.(Objeto no crafteable)"
+        "description": "Se invoca lanzando un muñeco vudu del guia al lava en el inframundo. El guia debe estar vivo y no en el inframundo.",
+        "craft": "Item no crafteable",
+        "summonImage": "/data/boss_summon/Muro_De_Carne.png",
+        "biome": "/data/biomes/inframundo.png"
       },
       "stats": {
         "life1": 8000,
@@ -809,9 +817,10 @@
       "bossImage": "/data/bosses/Reina_slime.png",
       "bossSummon": {
         "item": "Cristal gelatinoso",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/1/13/Gelatin_Crystal.png/revision/latest?cb=20200517121124&path-prefix=es",
-        "description": "Usando un cristal gelatinoso (no crafteable) en el bioma de la bendicion, el cristal se puede encontrar en la bendicion subterranea"
+        "description": "Usando un cristal gelatinoso en el bioma de la bendicion, el cristal se puede encontrar en la bendicion subterranea",
+        "craft": "Item no crafteable",
+        "summonImage": "/data/boss_summon/Reina_Slime.png",
+        "biome": "/data/biomes/bendicion.png"
       },
       "stats": {
         "life1": 18000,
@@ -913,9 +922,10 @@
       "bossImage": "/data/bosses/El_Destructor.png",
       "bossSummon": {
         "item": "Gusano mecanico",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/6/6d/Mechanical_Worm.png/revision/latest?cb=20160529173541&path-prefix=es",
-        "description": "Se craftea con 6 trozos de carne podrida, 5 lingotes de hierro/plomo y 6 almas de noche en un yunque de mithril/oricalco. Se invoca en la noche"
+        "description": "Se invoca usando un gusano mecanico durante la noche, tiene un 10% de probabilida de aparecer despues de que un altar haya sido destruido",
+        "craft": "Se craftea con 6 trozos de carne podrida, 5 lingotes de hierro/plomo y 6 almas de nochen un yunque de mithril/oricalco",
+        "summonImage": "/data/boss_summon/El_Destructor.png",
+        "biome": "/data/biomes/bosque.png"
       },
       "stats": {
         "life1": 80000,
@@ -997,9 +1007,10 @@
       "bossImage": "/data/bosses/Los_Gemelos.png",
       "bossSummon": {
         "item": "Ojo mecanico",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/5/5e/Mechanical_Eye.png/revision/latest?cb=20160529173423&path-prefix=es",
-        "description": "Se craftea con 3 lentes, 5 hierro/plomo y 6 almas de luz en un yunque de mithril/oricalco. Se invoca en la noche"
+        "description": "Se invoca con un ojo mecanico durante la noche, tiene un 10% de probabilida de aparecer despues de que un altar haya sido destruido",
+        "craft": "Se craftea con 3 lentes, 5 de hierro/plomo y 6 almas de luz en un yunque de mithril/oricalco",
+        "summonImage": "/data/boss_summon/Los_Gemelos.png",
+        "biome": "/data/biomes/bosque.png"
       },
       "stats": {
         "life1": "20000/23000",
@@ -1086,9 +1097,10 @@
       "bossImage": "/data/bosses/Esqueletron_Mayor.png",
       "bossSummon": {
         "item": "Craneo mecanico",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/c/c9/Mechanical_Skull.png/revision/latest?cb=20160529173708&path-prefix=es",
-        "description": "Se craftea con 30 huesos, 5 lingotes de hierro/plomo 3 almas de luz y 3 almas de noche en un yunque de mithril/oricalco Se invoca en la noche. Tiene un 10% de probabilidad de aparece despues de que un altar haya sido destruido."
+        "description": "Se invoca utilizando un craneo mecanico durante la noche, tiene un 10% de probabilida de aparecer despues de que un altar haya sido destruido.",
+        "craft": "Se craftea con 30 huesos, 5 lingotes de hierro/plomo 3 almas de luz y 3 almas de noche en un yunque de mithril/oricalco",
+        "summonImage": "/data/boss_summon/Skeletron_Prime.png",
+        "biome": "/data/biomes/bosque.png"
       },
       "stats": {
         "life1": 28000,
@@ -1170,9 +1182,10 @@
       "bossImage": "/data/bosses/Plantera.png",
       "bossSummon": {
         "item": "Bulbo de plantera",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/b/b8/Flor_de_Plantera.png/revision/latest?cb=20140426190811&path-prefix=es",
-        "description": "Se invoca rompiendo el bulbo de plantera, se encuentra en la jungla subterranea despues de matar a los 3 jefes mecanicos"
+        "description": "Se invoca rompiendo el bulbo de plantera, se encuentra en la jungla subterranea despues de matar a los 3 jefes mecanicos",
+        "craft": "Item no crafteable",
+        "summonImage": "/data/boss_summon/Plantera.png",
+        "biome": "/data/biomes/jungla_subterranea.png"
       },
       "stats": {
         "life1": 30000,
@@ -1299,9 +1312,10 @@
       "bossImage": "/data/bosses/Golem.png",
       "bossSummon": {
         "item": "Celula de poder de lihzahrd",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/9/9d/Lihzahrd_Power_Cell.png/revision/latest?cb=20150911011500&path-prefix=es",
-        "description": "Se invoca en el templo de la selva despues de derrotar a Plantera, usando una celula de poder de lihzahrd en el altar de lizhahrd"
+        "description": "Se invoca en el templo de la selva despues de derrotar a Plantera, usando una celula de poder de lihzahrd en el altar de lizhahrd",
+        "craft": "Item no crafteable",
+        "summonImage": "/data/boss_summon/Golem.png",
+        "biome": "/data/biomes/mazmorra_lizhard.png"
       },
       "stats": {
         "life1": 15000,
@@ -1413,9 +1427,10 @@
       "bossImage": "/data/bosses/Duke_Fishron.png",
       "bossSummon": {
         "item": "Gusano de trufa",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/3/3e/Truffle_Worm.png/revision/latest?cb=20140510051845&path-prefix=es",
-        "description": "Se invoca pescando en el oceano con un gusano de trufas en el inventario"
+        "description": "Se invoca pescando en el oceano con un gusano de trufas en el inventario",
+        "craft": "Item no crafteable",
+        "summonImage": "/data/boss_summon/Duke_Fishron .png",
+        "biome": "/data/biomes/oceano.png"
       },
       "stats": {
         "life1": 60000,
@@ -1517,9 +1532,10 @@
       "bossImage": "/data/bosses/Emperatriz_de_la_luz.png",
       "bossSummon": {
         "item": "Crisopa prismatica",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/8/82/Prismatic_Lacewing.png/revision/latest?cb=20200517062824&path-prefix=es",
-        "description": "Se invoca matando a la crisopa, esta se encuentra en la superficie de la bendicion, entre las 7:30 PM y las 12:00 AM despues de haber derrotado a plantera.(SE RECOMIENDA HACERLO DE NOCHE)"
+        "description": "Se invoca matando a la crisopa, esta se encuentra en la superficie de la bendicion, entre las 7:30 PM y las 12:00 AM despues de haber derrotado a plantera.(SE RECOMIENDA HACERLO DE NOCHE)",
+        "craft": "Item no crafteable",
+        "summonImage": "/data/boss_summon/Emperatriz_De_La_Luz.png",
+        "biome": "/data/biomes/bendicion.png"
       },
       "stats": {
         "life1": 70000,
@@ -1628,12 +1644,13 @@
     {
       "bossName": "Sectario Lunatico",
       "order": 25,
-      "bossImage": "/data/bosses/Secario_Lunatico.png",
+      "bossImage": "/data/bosses/Sectario_Lunatico.png",
       "bossSummon": {
         "item": "No Item",
-        "quantity": 1,
-        "itemImage": "No Item",
-        "description": "Se invoca matando a los cultistas en la mazmorra luego de derrrotar al golem"
+        "description": "Se invoca matando a los cultistas en la mazmorra luego de derrrotar al golem",
+        "craft": "Item no crafetable",
+        "summonImage": "/data/boss_summon/Cultista_Lunatico.png",
+        "biome": "/data/biomes/dungeon.png"
       },
       "stats": {
         "life1": 32000,
@@ -1700,9 +1717,10 @@
       "bossImage": "/data/bosses/MoonLord.png",
       "bossSummon": {
         "item": "Sello celestial",
-        "quantity": 1,
-        "itemImage": "https://static.wikia.nocookie.net/terraria/images/0/0c/Celestial_Sigil.png/revision/latest?cb=20150713232451&path-prefix=es",
-        "description": "Se invoca derrotando a los 4 pilares o usando un Sello celestial"
+        "description": "Se invoca derrotando a los 4 pilares o usando un Sello celestial",
+        "craft": "Se craftea con 12 fragmentos de cada uno de los pilares",
+        "summonImage": "/data/boss_summon/Senor_de_la_luna.png",
+        "biome": "/data/biomes/bosque.png"
       },
       "stats": {
         "life1": 145000,

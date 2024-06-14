@@ -148,7 +148,7 @@
         { "item": "El punto negro" }
       ],
       "eventBosses": [{ "Boss": "Holandes Volador" }],
-      "eventImage": "data/events/Invasion_Pirata.png"
+      "eventImage": "data/events/Invacion_Pirata.png"
     },
     {
       "eventName": "Eclipse",
@@ -290,7 +290,7 @@
       "eventImage": "data/events/Locura_Marciana.png"
     },
     {
-      "eventName": "Lunar Event",
+      "eventName": "Evento Lunar",
       "order": 26,
       "summon": "Vence al cultista Lunatico de fuera de la mazmorra, apareceran 4 pilares por el mundo. Dura hasta que los 4 pilares sean destruidos.",
       "loot": [

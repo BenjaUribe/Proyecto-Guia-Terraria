@@ -50,32 +50,77 @@ footer {
 }	
 
 .compJefes{
-    display: grid;
-    grid-template-rows: (3,1);
+    display: flex;
+    flex-direction: column;
     background-color:  rgba(22,22,29,0.8);
     width: 75%;
     height: 100%;
 }
 
 .topComp{
+    flex: 2;
     display: flex;
-    flex-direction: row;
 }
 
+.invocador{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bioma{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgBioma{
+    object-fit: contain;
+    flex: 2;
+    margin: 10%;
+}
+.dataBioma{
+    flex: 1;
+    margin: 10%;
+}
+
+.mid{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgInv{
+    object-fit: contain;
+    flex: 2;
+    margin: 10%;
+}
+.dataInv{
+    flex: 1;
+    margin: 10%;
+}
 
 .imageJefes{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 25%;
+    aspect-ratio: 1/1;
+    flex: 2;
 }	
 
 
 .dataJefes{  
     height: auto;
+    flex: 1;
 }	
 .dataJefes p{
-    padding-bottom: 30px;  
+    padding-bottom: 15px;  
 }	
 
 .compEvent{
@@ -91,4 +136,19 @@ footer {
     justify-content: center;
     align-items: center;
     width: 25%;
+    aspect-ratio: 1/1;
+}
+
+.clases{
+    overflow-y: scroll;
+    max-height: 100px;
+}
+
+.contMid{
+    flex: 1.5;
+    max-height: 20%;
+}
+
+.contInf{
+    flex: 1;
 }

@@ -1,7 +1,11 @@
 import jefes from "@/app/boss_list.json";
 import ClasCom from "./ClasCom";
 import { useState } from "react";
-import { Menu, MenuItem, MenuButton, Button, MenuList} from '@chakra-ui/react';
+import { Menu, MenuItem, MenuButton, Button, MenuList, Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon, Box} from '@chakra-ui/react';
 
 function JefesCom({ sProp }) {
   const currentBoss = jefes.datos.find((boss) => boss.bossName === sProp);
@@ -20,21 +24,59 @@ function JefesCom({ sProp }) {
     <main className="compJefes">
 
       <div className="topComp">
-        <div className="imageJefes">
-          {currentBoss && (<img src={currentBoss.bossImage} alt={sProp} />)}
+        <div className="invocador">
+          <div className="imgInv">
+            {currentBoss && (<img src={currentBoss.bossSummon.summonImage} alt={sProp} />)}
+          </div>
+
+          <div className="dataInv">
+              <p style={{ textDecoration: 'underline' }}>{currentBoss.bossSummon.item}</p>
+              <p>Crafeto: {currentBoss.bossSummon.craft}</p>
+          </div>
         </div>
-        <div className="dataJefes">
-          <p>Vida: {vida}</p>
-          <p>Defensa: {def}</p>
-          <p>Ataque: {atq}</p> 
+
+        <div className="mid">
+          <div className="imageJefes">
+            {currentBoss && (<img src={currentBoss.bossImage} alt={sProp} />)}
+          </div>
+          <div className="dataJefes">
+            <p style={{textDecoration: 'underline', fontSize: '1.5em'}}>{currentBoss.bossName}</p>
+            <p>Vida: {vida}</p>
+            <p>Defensa: {def}</p>
+            <p>Ataque: {atq}</p> 
+          </div>
+        </div>
+
+        <div className="bioma">
+          <div className="imgBioma">
+            {currentBoss && (<img src={currentBoss.bossSummon.biome} alt={sProp} />)}
+          </div>
+          <div className="dataBioma">
+            <p>{currentBoss.bossSummon.description}</p>
+          </div>
         </div>
       </div>
       
-      <div>  
-        FILA DE INVOCACION & LOOT
+      <div className="contMid">  
+        <Accordion defaultIndex={[0]} allowMultiple>
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box as='span' flex='1' textAlign='left'>
+                Loot
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel className="clases" pb={4}>
+            <p>text</p>
+ 
+          </AccordionPanel>
+        </AccordionItem>
+        </Accordion>
       </div>
         
-      <div>
+      <div className="contInf">
         <Menu>
           <MenuButton as={Button} colorScheme='pink'>
               Clases

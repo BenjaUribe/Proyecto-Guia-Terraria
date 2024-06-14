@@ -53,7 +53,6 @@ export default function Home() {
           </TabList>
           <TabPanels style={{color: 'white'}}>
               <TabPanel>
-                <p> AQUI TODO LO DE LOS BOSSES </p>
                 <Box className="listajefes">
                   {jefes && jefes.datos && (
                     <List>
@@ -71,7 +70,6 @@ export default function Home() {
                 </Box>
               </TabPanel>
               <TabPanel>
-                <p> AQUI TODO LO DE LOS EVENTOS </p>
                 <Box className="listaEventos">
                   {eventos && eventos.datos && (
                     <List>
