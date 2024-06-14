@@ -70,7 +70,7 @@
         {
           "item": "Gel real",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Reliquia Rey Slime",
@@ -165,7 +165,7 @@
         {
           "item": "Escudo de Cthulhu",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Reliquia Ojo de Cthulhu",
@@ -250,7 +250,7 @@
         {
           "item": "Cerebro de confusion",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Cerebro en un bote",
@@ -335,7 +335,7 @@
         {
           "item": "Bufanda de gusano",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Restos marchitantes",
@@ -465,7 +465,7 @@
         {
           "item": "Mochila colmena",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Miel brillante",
@@ -550,7 +550,7 @@
         {
           "item": "Guante de hueso",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Calavera poseida",
@@ -660,7 +660,7 @@
         {
           "item": "Casco de huesos",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Ojo de cierviclope",
@@ -775,7 +775,7 @@
         {
           "item": "Corazon demoniaco",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Calavera de cabra",
@@ -880,7 +880,7 @@
         {
           "item": "Gelatina volatil",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Reliquia de la reina slime",
@@ -965,7 +965,7 @@
         {
           "item": "Pieza de vagoneta mecanica",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Reliquia del Destructor",
@@ -1055,7 +1055,7 @@
         {
           "item": "Pieza de rueda mecanica",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Reliquia de los gemelos",
@@ -1140,7 +1140,7 @@
         {
           "item": "Pieza de bateria mecanica",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Reliquia de Esqueletron mayor",
@@ -1270,7 +1270,7 @@
         {
           "item": "Saco de esporas",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Reliquia de Plantera",
@@ -1385,7 +1385,7 @@
         {
           "item": "piedra brillante",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Reliquia de golem",
@@ -1490,7 +1490,7 @@
         {
           "item": "Trufa gambeante",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Reliquia de Duque Fishron",
@@ -1604,18 +1604,18 @@
         },
         {
           "item": "Insignia del surco",
-          "expert": false,
+          "expert": true,
           "master": false
         },
         {
           "item": "Reliquia de la Emperatriz de la luz",
           "expert": false,
-          "master": false
+          "master": true
         },
         {
           "item": "Joya de luz",
           "expert": false,
-          "master": false
+          "master": true
         }
       ],
       "classes": [
@@ -1810,17 +1810,17 @@
         {
           "item": "Tabla estelar celestial",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Tentaculo de aspecto sospechoso",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Globo gravitacional",
           "expert": true,
-          "master": true
+          "master": false
         },
         {
           "item": "Reliquia de moonlord",

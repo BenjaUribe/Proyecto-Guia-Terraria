@@ -45,8 +45,7 @@ footer {
     margin-right: 10px; 
 }
 
-/*test para comprobar separaciones el css va a cambiar*/
-/*background-color: rgba(46, 30, 118,0.4);*/
+
 .components {
     margin: 10px;
     max-height: 90%;
@@ -128,14 +127,46 @@ footer {
 }	
 
 .compEvent{
-    display: grid;
-    grid-template-rows: (3,1);
+    display: flex;
+    flex-direction: column;
     background-color:  rgba(22,22,29,0.8);
     width: 75%;
     height: 100%;
 }
 
+.topCompEvent{
+    flex: 2;
+    display: flex;
+    max-height: 40%;
+}
+.eventIzq{
+    object-fit: contain;
+    flex: 2;
+    margin: 10%;
+}
+
+.eventDer{
+    object-fit: contain;
+    flex: 2;
+    margin: 10%;
+
+}
+.summonData{
+    background-color: black;
+}
+
+.eventBoss{
+    background-color: #0b0b94;
+    max-height: 30%;
+}
+
+.lootEvent{
+    background-color: #4646b1;
+    max-height: 30%;
+}
+
 .imageEvent{
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,9 +174,9 @@ footer {
     aspect-ratio: 1/1;
 }
 
-.clases{
+.drop{
     overflow-y: scroll;
-    max-height: 100px;
+    max-height: 110px;
 }
 
 .contMid{

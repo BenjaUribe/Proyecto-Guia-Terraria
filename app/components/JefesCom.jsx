@@ -5,7 +5,9 @@ import { Menu, MenuItem, MenuButton, Button, MenuList, Accordion,
   AccordionItem,
   AccordionButton,
   AccordionPanel,
-  AccordionIcon, Box} from '@chakra-ui/react';
+  AccordionIcon, Box,
+  List,ListItem, Flex} from '@chakra-ui/react';
+  
 
 function JefesCom({ sProp }) {
   const currentBoss = jefes.datos.find((boss) => boss.bossName === sProp);
@@ -19,6 +21,14 @@ function JefesCom({ sProp }) {
     setSelectedOption(option);
   };
 
+  function validarExpert(parametro) {
+    const mensaje = parametro ? 'Se requiere modo experto' : 'No se requiere modo experto';
+    return mensaje;
+  }
+  function validarMaster(parametro) {
+    const mensaje = parametro ? 'Se requiere modo maestro' : 'No se requiere modo maestro';
+    return mensaje;
+  }
 
   return (
     <main className="compJefes">
@@ -68,9 +78,20 @@ function JefesCom({ sProp }) {
               <AccordionIcon />
             </AccordionButton>
           </h2>
-          <AccordionPanel className="clases" pb={4}>
-            <p>text</p>
- 
+          <AccordionPanel className="drop" pb={4}>
+              {currentBoss && currentBoss.drop && (
+              <List>
+                {currentBoss.drop.map((drop)=> (
+                  <ListItem key={drop.item}>
+                    <Flex style={{alignItems: 'center',justifyContent: 'space-between'}}>
+                    <p id={`drop-${drop.item}`}>
+                      {drop.item} --- {validarExpert(drop.expert)} Y {validarMaster(drop.master)}
+                    </p>
+                    </Flex>
+                  </ListItem>
+                ))}
+              </List>
+              )}
           </AccordionPanel>
         </AccordionItem>
         </Accordion>

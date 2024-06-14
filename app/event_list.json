@@ -5,6 +5,8 @@
       "eventName": "Dios antorcha",
       "order": 2,
       "summon": "El Dios antorcha se invoca cuando se ponen 101 antorchas bajo tierra",
+      "summonItem": "Antorchas",
+      "craft": "Las antorchas se pueden craftear con madera y gel",
       "loot": [{ "item": "Favor del Dios antorcha" }],
       "eventBosses": null,
       "eventImage": "data/events/Dios_Antorcha.png"
@@ -12,7 +14,9 @@
     {
       "eventName": "Luna de sangre",
       "order": 4,
-      "summon": "Ocurre al azar al principio de la noche, puede comenzar cuando cualquier jugador tiene mas de 100 de vida y la fase lunar NO es una luna nueva. Este evento dura hasta el amanecer. Se puede invocar con una lagrima sangruienta(item no crafteable)",
+      "summon": "Ocurre al azar al principio de la noche, puede comenzar cuando cualquier jugador tiene mas de 100 de vida y la fase lunar NO es una luna nueva. Este evento dura hasta el amanecer. Se puede invocar con una lagrima sangrienta",
+      "summonItem": "lagrima sangrienta",
+      "craft": "Item no crafteable",
       "loot": [
         { "item": "Sombrero de copa" },
         { "item": "Mascara de conejito" },
@@ -46,7 +50,9 @@
     {
       "eventName": "Ejercito de duendes",
       "order": 6,
-      "summon": "Tiene una probabilidad de 1/3 de ocurrir al amanecer si al menos un orbe sombrio/corazon carmesi ha sido destruido. Puede ser invocado mediante el Estandarte de batalla duende con 10 harapos y 5 de madera en un telar. El evento dura hasta que hayan muerto suficientes enemigos.",
+      "summon": "Tiene una probabilidad de 1/3 de ocurrir al amanecer si al menos un orbe sombrio/corazon carmesi ha sido destruido. Puede ser invocado mediante el Estandarte de batalla duende. El evento dura hasta que hayan muerto suficientes enemigos.",
+      "summonItem": "Estandarte de batalla duende",
+      "craft": "Se craftea con 10 harapos y 5 de madera en un telar",
       "loot": [
         { "item": "Arpon" },
         { "item": "Bola con pinchos" },
@@ -60,7 +66,9 @@
     {
       "eventName": "Ejercito del antiguo",
       "order": 7,
-      "summon": "Despues de encontrar al tabernero, compra el Stand de cristal eternia, ponlo sobre una superficie plana lo suficientemente grnade y activalo con un Cristal eternia veniddo por el tabernero. Dura hasta completar todas las oleadas o hasta que el Cristal sea destruido. (Dependiendo del avance en el juego el evento sera distinto) La primera fase es en el Pre-Hardmode, la segunda despues de haber derrotado a algun mecanico y la tercera despues de haber derrotado al Golem",
+      "summon": "Despues de encontrar al tabernero, compra el Stand de cristal eternia, ponlo sobre una superficie plana lo suficientemente grande y activalo con un Cristal eternia vendido por el tabernero. Dura hasta completar todas las oleadas o hasta que el Cristal sea destruido. (Dependiendo del avance en el juego el evento sera distinto) La primera fase es en el Pre-Hardmode, la segunda despues de haber derrotado a algun mecanico y la tercera despues de haber derrotado al Golem",
+      "summonItem": "Cristal eternia",
+      "craft": "Item no crafteable",
       "loot": [
         { "item": "Bufanda de aprendiz" },
         { "item": "Escudo de escudero" },
@@ -106,7 +114,9 @@
     {
       "eventName": "Invasion pirata",
       "order": 12,
-      "summon": "Ocurre al azar una vez se haya deestruido un altar. puede ser invocado con Mapa pirata (no crafteable), puede obtenerse por cualquier enemigo del oceano en el HardMode. Dura hasta que suficientes enemigos sean derrotados.",
+      "summon": "Ocurre al azar una vez se haya deestruido un altar. puede ser invocado con Mapa pirata, puede obtenerse por cualquier enemigo del oceano en el HardMode. Dura hasta que suficientes enemigos sean derrotados.",
+      "summonItem": "Mapa pirata",
+      "craft": "Item no crafteable",
       "loot": [
         { "item": "Alfanje" },
         { "item": "Tarjeta de descuentos" },
@@ -153,7 +163,9 @@
     {
       "eventName": "Eclipse",
       "order": 17,
-      "summon": "Tiene una probabilidad del 1/20 de ocurrir cada dia al amanecer, tan pronto como un jefe mecanico haya sido derrotado, tambien puede invocarse con Tablilla solar que se craftea con 8 fragmentos de tablilla solar. El evento dura hasta el anochecer.",
+      "summon": "Tiene una probabilidad del 1/20 de ocurrir cada dia al amanecer, tan pronto como un jefe mecanico haya sido derrotado, tambien puede invocarse con Tablilla solar. El evento dura hasta el anochecer.",
+      "summonItem": "Tablilla solar",
+      "craft": "Se craftea con 8 fragmentos de tablilla solar",
       "loot": [
         { "item": "Concha de neptuno" },
         { "item": "Piedra lunar" },
@@ -189,7 +201,9 @@
     {
       "eventName": "Luna calabaza",
       "order": 20,
-      "summon": "Invocada con Medallon de luna calabaza durante la noche. Se craftea con 30 calabazas, 5 de ectoplasma y 10 lingotes sagrados en un yunque de mithril/oricalco. Dura hasta el amanecer.",
+      "summon": "Invocada con Medallon de luna calabaza durante la noche. Dura hasta el amanecer.",
+      "summonItem": "Medallon de luna calabaza",
+      "craft": "Se craftea con 30 calabazas, 5 de ectoplasma y 10 lingotes sagrados en un yunque de mithril/oricalco",
       "loot": [
         { "item": "Madera tetrica" },
         { "item": "fusil de maiz de caramelo" },
@@ -224,7 +238,9 @@
     {
       "eventName": "Luna gelida",
       "order": 21,
-      "summon": "Invocada con Regalo Asqueroso durante la noche, se craftea con 20 de seda, 5 ectoplasma y 5 almas de terror en un yunque de mithril/oricalco. Dura hasta el amanecer.",
+      "summon": "Invocada con Regalo Asqueroso durante la noche. Dura hasta el amanecer.",
+      "summonItem": "Regalo Asqueroso",
+      "craft": "Se craftea con 20 de seda, 5 ectoplasma y 5 almas de terror en un yunque de mithril/oricalco",
       "loot": [
         { "item": "Regalo" },
         { "item": "Alas festivas" },
@@ -263,6 +279,8 @@
       "eventName": "Locura marciana",
       "order": 22,
       "summon": "Despues de derrotar al Golem, encuentre una sonda marciana y deje que te encuentre y luego deja que se escape. Dura hasta que suficientes enemigos sean derrotados.",
+      "summonItem": "sonda marciana",
+      "craft": "Item no crafteable",
       "loot": [
         { "item": "Xenobaculo" },
         { "item": "Llave de coche cosmico" },
@@ -293,6 +311,8 @@
       "eventName": "Evento Lunar",
       "order": 26,
       "summon": "Vence al cultista Lunatico de fuera de la mazmorra, apareceran 4 pilares por el mundo. Dura hasta que los 4 pilares sean destruidos.",
+      "summonItem": "cultista Lunatico",
+      "craft": "Item no crafteable",
       "loot": [
         { "item": "Fragmento de Vortice" },
         { "item": "Fragmento de nebulosa" },
