@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <main className="main">
       <div>
-        <h1 className='text'>Guia de progresion Terraria</h1>
+        <h1 className='text'>Guía de progresión Terraria</h1>
         <Tabs variant='soft-rounded' colorScheme='green'>
           <TabList>
             <Tab>Bosses</Tab>

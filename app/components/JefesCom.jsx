@@ -12,8 +12,12 @@ import { Menu, MenuItem, MenuButton, Button, MenuList, Accordion,
 function JefesCom({ sProp }) {
   const currentBoss = jefes.datos.find((boss) => boss.bossName === sProp);
   const vida = currentBoss.stats.life1;
+  const vida2 = currentBoss.stats.life2;
+  const vida3 = currentBoss.stats.life3;
   const def = currentBoss.stats.armor;
   const atq = currentBoss.stats.damage;
+  const atq2 = currentBoss.stats.damage2;
+  const atq3 = currentBoss.stats.damage3;
  
   const [selectedOption, setSelectedOption] = useState('');
 
@@ -51,9 +55,13 @@ function JefesCom({ sProp }) {
           </div>
           <div className="dataJefes">
             <p style={{textDecoration: 'underline', fontSize: '1.5em'}}>{currentBoss.bossName}</p>
-            <p>Vida: {vida}</p>
+            <p>Vida en Normal: {vida}</p>
+            <p>Vida en Experto: {vida2}</p>
+            <p>Vida en Maestro: {vida3}</p>
             <p>Defensa: {def}</p>
-            <p>Ataque: {atq}</p> 
+            <p>Ataque en Normal: {atq}</p> 
+            <p>Ataque en Experto: {atq2}</p> 
+            <p>Ataque en Maestro: {atq3}</p> 
           </div>
         </div>
 

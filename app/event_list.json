@@ -3,17 +3,18 @@
   "datos": [
     {
       "eventName": "Dios antorcha",
-      "order": 2,
+      "order": "02",
       "summon": "El Dios antorcha se invoca cuando se ponen 101 antorchas bajo tierra",
       "summonItem": "Antorchas",
       "craft": "Las antorchas se pueden craftear con madera y gel",
       "loot": [{ "item": "Favor del Dios antorcha" }],
       "eventBosses": null,
-      "eventImage": "data/events/Dios_Antorcha.png"
+      "eventImage": "data/events/Dios_Antorcha.png",
+      "summonImage": "data/eventos/Torch.png"
     },
     {
       "eventName": "Luna de sangre",
-      "order": 4,
+      "order": "04",
       "summon": "Ocurre al azar al principio de la noche, puede comenzar cuando cualquier jugador tiene mas de 100 de vida y la fase lunar NO es una luna nueva. Este evento dura hasta el amanecer. Se puede invocar con una lagrima sangrienta",
       "summonItem": "lagrima sangrienta",
       "craft": "Item no crafteable",
@@ -45,11 +46,12 @@
         { "item": "Cometa de conejo carmesi" }
       ],
       "eventBosses": null,
-      "eventImage": "data/events/Luna_de_Sangre.png"
+      "eventImage": "data/events/Luna_de_Sangre.png",
+      "summonImage": "data/eventos/Bloody_Tear.png"
     },
     {
       "eventName": "Ejercito de duendes",
-      "order": 6,
+      "order": "06",
       "summon": "Tiene una probabilidad de 1/3 de ocurrir al amanecer si al menos un orbe sombrio/corazon carmesi ha sido destruido. Puede ser invocado mediante el Estandarte de batalla duende. El evento dura hasta que hayan muerto suficientes enemigos.",
       "summonItem": "Estandarte de batalla duende",
       "craft": "Se craftea con 10 harapos y 5 de madera en un telar",
@@ -61,11 +63,12 @@
         { "item": "Cuchillo de llamas oscuras" }
       ],
       "eventBosses": null,
-      "eventImage": "data/events/Ejercito_de_Duendes.png"
+      "eventImage": "data/events/Ejercito_de_Duendes.png",
+      "summonImage": "data/eventos/Goblin_Battle_Standard.png"
     },
     {
       "eventName": "Ejercito del antiguo",
-      "order": 7,
+      "order": "07",
       "summon": "Despues de encontrar al tabernero, compra el Stand de cristal eternia, ponlo sobre una superficie plana lo suficientemente grande y activalo con un Cristal eternia vendido por el tabernero. Dura hasta completar todas las oleadas o hasta que el Cristal sea destruido. (Dependiendo del avance en el juego el evento sera distinto) La primera fase es en el Pre-Hardmode, la segunda despues de haber derrotado a algun mecanico y la tercera despues de haber derrotado al Golem",
       "summonItem": "Cristal eternia",
       "craft": "Item no crafteable",
@@ -109,7 +112,8 @@
         { "Boss": "Ogro (2°)" },
         { "Boss": "Betsy (3°)" }
       ],
-      "eventImage": "data/events/Ejercito_del_Antiguo.png"
+      "eventImage": "data/events/Ejercito_del_Antiguo.png",
+      "summonImage": "data/eventos/Eternia_Crystal.png"
     },
     {
       "eventName": "Invasion pirata",
@@ -158,7 +162,8 @@
         { "item": "El punto negro" }
       ],
       "eventBosses": [{ "Boss": "Holandes Volador" }],
-      "eventImage": "data/events/Invacion_Pirata.png"
+      "eventImage": "data/events/Invacion_Pirata.png",
+      "summonImage": "data/eventos/Pirate_Map.png"
     },
     {
       "eventName": "Eclipse",
@@ -196,7 +201,8 @@
         { "item": "Sol de medianoche" }
       ],
       "eventBosses": null,
-      "eventImage": "data/events/Eclipse.png"
+      "eventImage": "data/events/Eclipse.png",
+      "summonImage": "data/eventos/Solar_Tablet.png"
     },
     {
       "eventName": "Luna calabaza",
@@ -233,7 +239,8 @@
         { "item": "escoba de bruja" }
       ],
       "eventBosses": [{ "Boss": "Arbol de luto" }, { "Boss": "Rey calabaza" }],
-      "eventImage": "data/events/Luna_de_Calabaza.png"
+      "eventImage": "data/events/Luna_de_Calabaza.png",
+      "summonImage": "data/eventos/Pumpkin_Moon_Medallion.png"
     },
     {
       "eventName": "Luna gelida",
@@ -273,7 +280,8 @@
         { "Boss": "Papá-NK1" },
         { "Boss": "Reina de hielo" }
       ],
-      "eventImage": "data/events/Luna_Gelida.png"
+      "eventImage": "data/events/Luna_Gelida.png",
+      "summonImage": "data/eventos/Naughty_Present.png"
     },
     {
       "eventName": "Locura marciana",
@@ -305,7 +313,8 @@
         { "item": "Monopatin cosmico" }
       ],
       "eventBosses": [{ "Boss": "Platillo marciano" }],
-      "eventImage": "data/events/Locura_Marciana.png"
+      "eventImage": "data/events/Locura_Marciana.png",
+      "summonImage": "data/eventos/Martian_Probe.png"
     },
     {
       "eventName": "Evento Lunar",
@@ -320,7 +329,8 @@
         { "item": "Fragmento solar" }
       ],
       "eventBosses": null,
-      "eventImage": "data/events/Lunar_Event.png"
+      "eventImage": "data/events/Lunar_Event.png",
+      "summonImage": "data/eventos/Sectario_Lunatico.png"
     }
   ]
 }

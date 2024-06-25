@@ -3,7 +3,7 @@
   "datos": [
     {
       "bossName": "Rey Slime",
-      "order": 1,
+      "order": "01",
       "bossImage": "/data/bosses/Rey_Slime.png",
       "bossSummon": {
         "item": "Corona de slime",
@@ -87,28 +87,46 @@
         {
           "class": "Melee",
           "armor": "armadura de platino",
-          "weapon": "Espada de Hierba"
+          "armorImage": [{"imagen": "public/data/equipamiento/rey_slime/melee/armadura_de_platino.png",
+            "nombre": "armadura de platino"}],
+          "weapon": "Espada de Hierba",
+          "weaponImage": [{"imagen": "public/data/equipamiento/rey_slime/melee/espada_de_hierba.png",
+          "nombre": "Espada de Hierba"}]
         },
         {
           "class": "Ranged",
           "armor": "armadura de fósil",
-          "weapon": "arco de platino"
+          "armorImage": [{"imagen": "public/data/equipamiento/rey_slime/ranged/armadura_de_fosil.png",
+          "nombre": "Armadura de fósil"}],
+          "weapon": "arco de platino",
+          "weaponImage": [{"imagen": "public/data/equipamiento/rey_slime/ranged/arco_de_platino.png",
+            "nombre": "Arco de platino"}]
         },
         {
           "class": "Magic",
           "armor": "armadura para la selva",
-          "weapon": "Báculo de diamante/Rubí"
+          "armorImage": [{"imagen": "public/data/equipamiento/rey_slime/magic/armadura_de_la_selva.png",
+          "nombre": "Armadura de la selva"}],
+          "weapon": "Báculo de diamante/Rubí",
+          "weaponImage": [{"imagen": "public/data/equipamiento/rey_slime/magic/baculo_de_diamante.png",
+          "nombre": "Báculo de diamante"}]
         },
         {
           "class": "Summoner",
           "armor": "Abrigo de piel de copito",
-          "weapon": "Báculo de copito y Latespina"
+          "armorImage": [{"imagen": "public/data/equipamiento/rey_slime/summoner/abrigo_de_piel_de_copito.png",
+          "nombre": "Abrigo de piel de copito"}],
+          "weapon": "Báculo de copito y Latespina",
+          "weaponImage": [{"imagen": "public/data/equipamiento/rey_slime/summoner/baculo_de_copito.png",
+          "nombre": "Báculo de copito"},
+          {"imagen": "public/data/equipamiento/rey_slime/summoner/latespina.png",
+          "nombre": "Latespina"}]
         }
       ]
     },
     {
       "bossName": "Ojo de Cthulhu",
-      "order": 3,
+      "order": "03",
       "bossImage": "/data/bosses/Ojo_de_Cthulhu.png",
       "bossSummon": {
         "item": "Ojo de aspecto sospechoso",
@@ -182,22 +200,40 @@
         {
           "class": "Melee",
           "armor": "armadura de platino",
-          "weapon": "Espada de Hierba"
+          "armorImage": [{"imagen": "public/data/equipamiento/ojo_de_cthulhu/melee/armadura_de_platino.png",
+          "nombre": "Armadura de platino"}],
+          "weapon": "Espada de Hierba",
+          "weaponImage": [{"imagen": "public/data/equipamiento/ojo_de_cthulhu/melee/espada_de_hierba.png",
+          "nombre": "Espada de Hierba"}]
         },
         {
           "class": "Ranged",
           "armor": "armadura de fósil",
-          "weapon": "arco de platino"
+          "armorImage": [{"imagen": "public/data/equipamiento/ojo_de_cthulhu/ranged/armadura_de_fosil.png",
+          "nombre": "Armadura de fósil"}],
+          "weapon": "arco de platino",
+          "weaponImage": [{"imagen": "public/data/equipamiento/ojo_de_cthulhu/ranged/arco_de_platino.png",
+          "nombre": "Arco de platino"}]
         },
         {
           "class": "Magic",
           "armor": "armadura para la selva",
-          "weapon": "Báculo de diamante/Rubí"
+          "armorImage": [{"imagen": "public/data/equipamiento/ojo_de_cthulhu/magic/armadura_de_la_selva.png",
+          "nombre": "Armadura de la selva"}],
+          "weapon": "Báculo de diamante/Rubí",
+          "weaponImage": [{"imagen": "public/data/equipamiento/ojo_de_cthulhu/magic/baculo_de_diamante.png",
+          "nombre": "Báculo de diamante"}]
         },
         {
           "class": "Summoner",
           "armor": "Abrigo de piel de copito",
-          "weapon": "Báculo de copito y Latespina"
+          "armorImage": [{"imagen": "public/data/equipamiento/ojo_de_cthulhu/summoner/abrigo_de_piel_de_copito.png",
+          "nombre": "Abrigo de piel de copito"}],
+          "weapon": "Báculo de copito y Latespina",
+          "weaponImage": [{"imagen": "public/data/equipamiento/ojo_de_cthulhu/summoner/baculo_de_copito.png",
+          "nombre": "Báculo de copito"},
+          {"imagen": "public/data/equipamiento/ojo_de_cthulhu/summoner/latespina.png",
+          "nombre": "Latespina"}]
         }
       ]
     },
@@ -267,22 +303,40 @@
         {
           "class": "Melee",
           "armor": "armadura de platino",
-          "weapon": "Espada de Hierba"
+          "armorImage": [{"imagen": "public/data/equipamiento/cerebro_de_cthulhu/melee/armadura_de_platino.png",
+          "nombre": "Armadura de platino"}],
+          "weapon": "Espada de Hierba",
+          "weaponImage": [{"imagen": "public/data/equipamiento/cerebro_de_cthulhu/melee/espada_de_hierba.png",
+          "nombre": "Espada de Hierba"}]
         },
         {
           "class": "Ranged",
           "armor": "armadura de fósil",
-          "weapon": "arco de platino"
+          "armorImage": [{"imagen": "public/data/equipamiento/cerebro_de_cthulhu/ranged/armadura_de_fosil.png",
+          "nombre": "Armadura de fósil"}],
+          "weapon": "arco de platino",
+          "weaponImage": [{"imagen": "public/data/equipamiento/cerebro_de_cthulhu/ranged/arco_de_platino.png",
+          "nombre": "Arco de platino"}]
         },
         {
           "class": "Magic",
           "armor": "armadura para la selva",
-          "weapon": "Báculo de diamante/Rubí"
+          "armorImage": [{"imagen": "public/data/equipamiento/cerebro_de_cthulhu/magic/armadura_de_la_selva.png",
+          "nombre": "Armadura de la selva"}],
+          "weapon": "Báculo de diamante/Rubí",
+          "weaponImage": [{"imagen": "public/data/equipamiento/cerebro_de_cthulhu/magic/baculo_de_diamante.png",
+          "nombre": "Báculo de diamante"}]
         },
         {
           "class": "Summoner",
           "armor": "Abrigo de piel de copito",
-          "weapon": "Báculo de copito y Latespina"
+          "armorImage": [{"imagen": "public/data/equipamiento/cerebro_de_cthulhu/summoner/abrigo_de_piel_de_copito.png",
+          "nombre": "Abrigo de piel de copito"}],
+          "weapon": "Báculo de copito y Latespina",
+          "weaponImage": [{"imagen": "public/data/equipamiento/cerebro_de_cthulhu/summoner/baculo_de_copito.png",
+          "nombre": "Báculo de copito"},
+          {"imagen": "public/data/equipamiento/cerebro_de_cthulhu/summoner/latespina.png",
+          "nombre": "Latespina"}]
         }
       ]
     },
@@ -352,28 +406,46 @@
         {
           "class": "Melee",
           "armor": "armadura de platino",
-          "weapon": "Espada de Hierba"
+          "armorImage": [{"imagen": "public/data/equipamiento/devoramundos/melee/armadura_de_platino.png",
+          "nombre": "Armadura de platino"}],
+          "weapon": "Espada de Hierba",
+          "weaponImage": [{"imagen": "public/data/equipamiento/devoramundos/melee/espada_de_hierba.png",
+          "nombre": "Espada de Hierba"}]
         },
         {
           "class": "Ranged",
           "armor": "armadura de fósil",
-          "weapon": "arco de platino"
+          "armorImage": [{"imagen": "public/data/equipamiento/devoramundos/ranged/armadura_de_fosil.png",
+          "nombre": "Armadura de fósil"}],
+          "weapon": "arco de platino",
+          "weaponImage": [{"imagen": "public/data/equipamiento/devoramundos/ranged/arco_de_platino.png",
+          "nombre": "Arco de platino"}]
         },
         {
           "class": "Magic",
           "armor": "armadura para la selva",
-          "weapon": "Báculo de diamante/Rubí"
+          "armorImage": [{"imagen": "public/data/equipamiento/devoramundos/magic/armadura_de_la_selva.png",
+          "nombre": "Armadura de la selva"}],
+          "weapon": "Báculo de diamante/Rubí",
+          "weaponImage": [{"imagen": "public/data/equipamiento/devoramundos/magic/baculo_de_diamante.png",
+          "nombre": "Báculo de diamante"}]
         },
         {
           "class": "Summoner",
           "armor": "Abrigo de piel de copito",
-          "weapon": "Báculo de copito y Latespina"
+          "armorImage":   [{"imagen": "public/data/equipamiento/devoramundos/summoner/abrigo_de_piel_de_copito.png",
+          "nombre": "Abrigo de piel de copito"}],
+          "weapon": "Báculo de copito y Latespina",
+          "weaponImage": [{"imagen": "public/data/equipamiento/devoramundos/summoner/baculo_de_copito.png",
+          "nombre": "Báculo de copito"},
+          {"imagen": "public/data/equipamiento/devoramundos/summoner/latespina.png",
+          "nombre": "Latespina"}]
         }
       ]
     },
     {
       "bossName": "Abeja reina",
-      "order": 8,
+      "order": "08",
       "bossImage": "/data/bosses/Abeja_reina.png",
       "bossSummon": {
         "item": "Abejaminacion",
@@ -482,28 +554,46 @@
         {
           "class": "Melee",
           "armor": "armadura fundida",
-          "weapon": "Espadon ardiente"
+          "armorImage": [{"imagen": "public/data/equipamiento/abeja_reina/melee/armadura_fundida.png",
+          "nombre": "Armadura fundida"}],
+          "weapon": "Volcan",
+          "weaponImage": [{"imagen": "public/data/equipamiento/abeja_reina/melee/volcan.png",
+          "nombre": "Volcan"}]
         },
         {
           "class": "Ranged",
           "armor": "armadura de fósil",
-          "weapon": "Minitiburon"
+          "armorImage": [{"imagen": "public/data/equipamiento/abeja_reina/ranged/armadura_de_fosil.png",
+          "nombre": "Armadura de fósil"}],
+          "weapon": "Minitiburon",
+          "weaponImage": [{"imagen": "public/data/equipamiento/abeja_reina/ranged/minitiburon.png",
+          "nombre": "Minitiburon"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura de meteorito",
-          "weapon": "Báculo de diamante/Guadaña demoniaca"
+          "armorImage": [{"imagen": "public/data/equipamiento/abeja_reina/magic/armadura_de_meteorito.png",
+          "nombre": "Armadura de meteorito"}],
+          "weapon": "Báculo de diamante/Guadaña demoniaca",
+          "weaponImage": [{"imagen": "public/data/equipamiento/abeja_reina/magic/guadaña_demoniaca.png",
+          "nombre": "Guadaña demoniaca"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura de obsidiana",
-          "weapon": "Báculo de copito/Báculo de diablillo y Latespina"
+          "armorImage": [{"imagen": "public/data/equipamiento/abeja_reina/summoner/armadura_de_obsidiana.png",
+          "nombre": "Armadura de obsidiana"}],
+          "weapon": "Báculo de copito/Báculo de diablillo y Latespina",
+          "weaponImage": [{"imagen": "public/data/equipamiento/abeja_reina/summoner/baculo_de_diablillo.png",
+          "nombre": "Báculo de copito"},
+          {"imagen": "public/data/equipamiento/abeja_reina/summoner/latespina.png",
+          "nombre": "Latespina"}]
         }
       ]
     },
     {
       "bossName": "Esqueletron",
-      "order": 9,
+      "order": "09",
       "bossImage": "/data/bosses/Esqueletron.png",
       "bossSummon": {
         "item": "Muñeco de vudú del buhonero",
@@ -567,22 +657,40 @@
         {
           "class": "Melee",
           "armor": "armadura fundida",
-          "weapon": "Espadon ardiente"
+          "armorImage": [{"imagen": "public/data/equipamiento/esqueletron/melee/armadura_fundida.png",
+          "nombre": "Armadura fundida"}],
+          "weapon": "Volcan",
+          "weaponImage": [{"imagen": "public/data/equipamiento/esqueletron/melee/volcan.png",
+          "nombre": "Volcan"}]
         },
         {
           "class": "Ranged",
           "armor": "armadura de fósil",
-          "weapon": "Rodillas de la abeja/Furia fundida"
+          "armorImage": [{"imagen": "public/data/equipamiento/esqueletron/ranged/armadura_de_fosil.png",
+          "nombre": "Armadura de fósil"}],
+          "weapon": "Furia fundida",
+          "weaponImage": [{"imagen": "public/data/equipamiento/esqueletron/ranged/furia_fundida.png",
+          "nombre": "Furia fundida"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura de meteorito",
-          "weapon": "Báculo de diamante/Guadaña demoniaca"
+          "armorImage": [{"imagen": "public/data/equipamiento/esqueletron/magic/armadura_de_meteorito.png",
+          "nombre": "Armadura de meteorito"}],
+          "weapon": "Guadaña demoniaca",
+          "weaponImage": [{"imagen": "public/data/equipamiento/esqueletron/magic/guadaña_demoniaca.png",
+          "nombre": "Guadaña demoniaca"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura de obsidiana",
-          "weapon": "Báculo de diablillo y Latespina"
+          "armorImage": [{"imagen": "public/data/equipamiento/esqueletron/summoner/armadura_de_obsidiana.png",
+          "nombre": "Armadura de obsidiana"}],
+          "weapon": "Báculo de diablillo y Latespina",
+          "weaponImage": [{"imagen": "public/data/equipamiento/esqueletron/summoner/baculo_de_diablillo.png",
+          "nombre": "Báculo de diablillo"},
+          {"imagen": "public/data/equipamiento/esqueletron/summoner/latespina.png",
+          "nombre": "Latespina"}]
         }
       ]
     },
@@ -677,22 +785,40 @@
         {
           "class": "Melee",
           "armor": "armadura fundida",
-          "weapon": "Espadon ardiente"
+          "armorImage": [{"imagen": "public/data/equipamiento/cierviclope/melee/armadura_fundida.png",
+          "nombre": "Armadura fundida"}],
+          "weapon": "Volcan",
+          "weaponImage": [{"imagen": "public/data/equipamiento/cierviclope/melee/volcan.png",
+          "nombre": "Volcan"}]
         },
         {
           "class": "Ranged",
           "armor": "armadura de fósil",
-          "weapon": "Rodillas de la abeja/Furia fundida"
+          "armorImage": [{"imagen": "public/data/equipamiento/cierviclope/ranged/armadura_de_fosil.png",
+          "nombre": "Armadura de fósil"}],
+          "weapon": "Furia fundida",
+          "weaponImage": [{"imagen": "public/data/equipamiento/cierviclope/ranged/furia_fundida.png",
+          "nombre": "Furia fundida"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura de meteorito",
-          "weapon": "Báculo de diamante/Guadaña demoniaca"
+          "armorImage": [{"imagen": "public/data/equipamiento/cierviclope/magic/armadura_de_meteorito.png",
+          "nombre": "Armadura de meteorito"}],
+          "weapon": "Guadaña demoniaca",
+          "weaponImage": [{"imagen": "public/data/equipamiento/cierviclope/magic/guadaña_demoniaca.png",
+          "nombre": "Guadaña demoniaca"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura de obsidiana",
-          "weapon": "Báculo de diablillo y Latespina"
+          "armorImage": [{"imagen": "public/data/equipamiento/cierviclope/summoner/armadura_de_obsidiana.png",
+          "nombre": "Armadura de obsidiana"}],
+          "weapon": "Báculo de diablillo y Latespina",
+          "weaponImage": [{"imagen": "public/data/equipamiento/cierviclope/summoner/baculo_de_diablillo.png",
+          "nombre": "Báculo de diablillo"},
+          {"imagen": "public/data/equipamiento/cierviclope/summoner/latespina.png",
+          "nombre": "Latespina"}]
         }
       ]
     },
@@ -792,22 +918,40 @@
         {
           "class": "Melee",
           "armor": "armadura fundida",
-          "weapon": "Filo de la noche"
+          "armorImage": [{"imagen": "public/data/equipamiento/muro_carnoso/melee/armadura_fundida.png",
+          "nombre": "Armadura fundida"}],
+          "weapon": "Filo de la noche",
+          "weaponImage": [{"imagen": "public/data/equipamiento/muro_carnoso/melee/filo_de_la_noche.png",
+          "nombre": "Filo de la noche"}]
         },
         {
           "class": "Ranged",
           "armor": "armadura de fósil",
-          "weapon": "Furia fundida/Arco de ala infernal"
+          "armorImage": [{"imagen": "public/data/equipamiento/muro_carnoso/ranged/armadura_de_fosil.png",
+          "nombre": "Armadura de fósil"}],
+          "weapon": "Furia fundida/Arco de ala infernal",
+          "weaponImage": [{"imagen": "public/data/equipamiento/muro_carnoso/ranged/furia_fundida.png",
+          "nombre": "Furia fundida"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura de meteorito",
-          "weapon": "Guadaña demoniaca"
+          "armorImage": [{"imagen": "public/data/equipamiento/muro_carnoso/magic/armadura_de_meteorito.png",
+          "nombre": "Armadura de meteorito"}],
+          "weapon": "Guadaña demoniaca",
+          "weaponImage": [{"imagen": "public/data/equipamiento/muro_carnoso/magic/guadaña_demoniaca.png",
+          "nombre": "Guadaña demoniaca"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura de obsidiana",
-          "weapon": "Báculo de diablillo y latigazo espinal"
+          "armorImage": [{"imagen": "public/data/equipamiento/muro_carnoso/summoner/armadura_de_obsidiana.png",
+          "nombre": "Armadura de obsidiana"}],
+          "weapon": "Báculo de diablillo y latigazo espinal",
+          "weaponImage": [{"imagen": "public/data/equipamiento/muro_carnoso/summoner/baculo_de_diablillo.png",
+          "nombre": "Báculo de diablillo"},
+          {"imagen": "public/data/equipamiento/muro_carnoso/summoner/latigazo_espinal.png",
+          "nombre": "Latigazo espinal"}]
         }
       ]
     },
@@ -897,22 +1041,44 @@
         {
           "class": "Melee",
           "armor": "Armadura Titanio/Adamantita",
-          "weapon": "Hoz de hielo/Espada helada"
+          "armorImage": [{"imagen": "public/data/equipamiento/reina_slime/melee/armadura_de_titanio.png",
+          "nombre": "Armadura de titanio"},
+          {"imagen": "public/data/equipamiento/reina_slime/melee/armadura_de_adamantita.png",
+          "nombre": "Armadura de adamantita"}],
+          "weapon": "Hoz de hielo/Espada helada",
+          "weaponImage": [{"imagen": "public/data/equipamiento/reina_slime/melee/espada_helada.png",
+          "nombre": "Espada helada"}]
         },
         {
           "class": "Ranged",
           "armor": "Armadura Titanio/Adamantita",
-          "weapon": "Arco de tormentas de Dedalo/Medula"
+          "armorImage": [{"imagen": "public/data/equipamiento/reina_slime/ranged/armadura_de_titanio.png",
+          "nombre": "Armadura de titanio"},
+          {"imagen": "public/data/equipamiento/reina_slime/ranged/armadura_de_adamantita.png",
+          "nombre": "Armadura de adamantita"}],
+          "weapon": "Arco de tormentas de Dedalo/Medula",
+          "weaponImage": [{"imagen": "public/data/equipamiento/reina_slime/ranged/arco_de_tormentas_de_dedalo.png",
+          "nombre": "Arco de tormentas de Dedalo"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura prohibida/armadura titanio/adamantita",
-          "weapon": "Fractura celestial/Baculo de meteorito"
+          "armorImage": [{"imagen": "public/data/equipamiento/reina_slime/magic/armadura_prohibida.png",
+          "nombre": "Armadura prohibida"}],
+          "weapon": "Fractura celestial/Baculo de meteorito",
+          "weaponImage": [{"imagen": "public/data/equipamiento/reina_slime/magic/fractura_celestial.png",
+          "nombre": "Fractura celestial"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura de araña",
-          "weapon": "Baculo Sanguinario/Pirata/de cuchillas y latigo gelido"
+          "armorImage": [{"imagen": "public/data/equipamiento/reina_slime/summoner/armadura_de_araña.png",
+          "nombre": "Armadura de araña"}],
+          "weapon": "Baculo Sanguinario/de cuchillas y latigo gelido",
+          "weaponImage": [{"imagen": "public/data/equipamiento/reina_slime/summoner/baculo_sanguinario.png",
+          "nombre": "Baculo Sanguinario"},
+          {"imagen": "public/data/equipamiento/reina_slime/summoner/latigo_gelido.png",
+          "nombre": "Latigo gelido"}]
         }
       ]
     },
@@ -982,22 +1148,44 @@
         {
           "class": "Melee",
           "armor": "Armadura de titanio/adamantita",
-          "weapon": "Espada helada/Discos de luz"
+          "armorImage": [{"imagen": "public/data/equipamiento/destructor/melee/armadura_de_titanio.png",
+          "nombre": "Armadura de titanio"},
+          {"imagen": "public/data/equipamiento/destructor/melee/armadura_de_adamantita.png",
+          "nombre": "Armadura de adamantita"}],
+          "weapon": "Espada helada/Discos de luz",
+          "weaponImage": [{"imagen": "public/data/equipamiento/destructor/melee/espada_helada.png",
+          "nombre": "Espada helada"}]
         },
         {
           "class": "Ranged",
           "armor": "Armadura de titanio/adamantita",
-          "weapon": "Arco de tormentas de Dedalo/Medula"
+          "armorImage": [{"imagen": "public/data/equipamiento/destructor/ranged/armadura_de_titanio.png",
+          "nombre": "Armadura de titanio"},
+          {"imagen": "public/data/equipamiento/destructor/ranged/armadura_de_adamantita.png",
+          "nombre": "Armadura de adamantita"}],
+          "weapon": "Arco de tormentas de Dedalo/Medula",
+          "weaponImage": [{"imagen": "public/data/equipamiento/destructor/ranged/arco_de_tormentas_de_dedalo.png",
+          "nombre": "Arco de tormentas de Dedalo"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura prohibida/armadura titanio/adamantita",
-          "weapon": "Fractura celestial/Baculo de meteorito/Muñeca maldita de llamas malditas"
+          "armorImage": [{"imagen": "public/data/equipamiento/destructor/magic/armadura_prohibida.png",
+          "nombre": "Armadura prohibida"}],
+          "weapon": "Fractura celestial/Baculo de meteorito/Muñeca maldita de llamas malditas",
+          "weaponImage": [{"imagen": "public/data/equipamiento/destructor/magic/fractura_celestial.png",
+          "nombre": "Fractura celestial"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura de araña",
-          "weapon": "Baculo Sanguinario/Pirata/de cuchillas y latigo gelido"
+          "armorImage": [{"imagen": "public/data/equipamiento/destructor/summoner/armadura_de_araña.png",
+          "nombre": "Armadura de araña"}],
+          "weapon": "Baculo Sanguinario/Pirata/de cuchillas y latigo gelido",
+          "weaponImage": [{"imagen": "public/data/equipamiento/destructor/summoner/baculo_sanguinario.png",
+          "nombre": "Baculo Sanguinario"},
+          {"imagen": "public/data/equipamiento/el_destructor/summoner/latigo_gelido.png",
+          "nombre": "Latigo gelido"}]
         }
       ]
     },
@@ -1072,22 +1260,44 @@
         {
           "class": "Melee",
           "armor": "Armadura de titanio/adamantita",
-          "weapon": "Espada helada/Discos de luz"
+          "armorImage": [{"imagen": "public/data/equipamiento/los_gemelos/melee/armadura_de_titanio.png",
+          "nombre": "Armadura de titanio"},
+          {"imagen": "public/data/equipamiento/los_gemelos/melee/armadura_de_adamantita.png",
+          "nombre": "Armadura de adamantita"}],
+          "weapon": "Espada helada/Discos de luz",
+          "weaponImage": [{"imagen": "public/data/equipamiento/los_gemelos/melee/espada_helada.png",
+          "nombre": "Espada helada"}]
         },
         {
           "class": "Ranged",
           "armor": "Armadura de titanio/adamantita",
-          "weapon": "Arco de tormentas de Dedalo/Medula"
+          "armorImage": [{"imagen": "public/data/equipamiento/los_gemelos/ranged/armadura_de_titanio.png",
+          "nombre": "Armadura de titanio"},
+          {"imagen": "public/data/equipamiento/los_gemelos/ranged/armadura_de_adamantita.png",
+          "nombre": "Armadura de adamantita"}],
+          "weapon": "Arco de tormentas de Dedalo/Medula",
+          "weaponImage": [{"imagen": "public/data/equipamiento/los_gemelos/ranged/arco_de_tormentas_de_dedalo.png",
+          "nombre": "Arco de tormentas de Dedalo"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura prohibida/armadura titanio/adamantita",
-          "weapon": "Fractura celestial/Baculo de meteorito/Muñeca maldita de llamas malditas"
+          "armorImage": [{"imagen": "public/data/equipamiento/los_gemelos/magic/armadura_prohibida.png",
+          "nombre": "Armadura prohibida"}],
+          "weapon": "Fractura celestial/Baculo de meteorito/Muñeca maldita de llamas malditas",
+          "weaponImage": [{"imagen": "public/data/equipamiento/los_gemelos/magic/fractura_celestial.png",
+          "nombre": "Fractura celestial"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura de araña",
-          "weapon": "Baculo Sanguinario/Pirata/de cuchillas y latigo gelido"
+          "armorImage": [{"imagen": "public/data/equipamiento/los_gemelos/summoner/armadura_de_araña.png",
+          "nombre": "Armadura de araña"}],
+          "weapon": "Baculo Sanguinario/Pirata/de cuchillas y latigo gelido",
+          "weaponImage": [{"imagen": "public/data/equipamiento/los_gemelos/summoner/baculo_sanguinario.png",
+          "nombre": "Baculo Sanguinario"},
+          {"imagen": "public/data/equipamiento/los_gemelos/summoner/latigo_gelido.png",
+          "nombre": "Latigo gelido"}]
         }
       ]
     },
@@ -1157,22 +1367,44 @@
         {
           "class": "Melee",
           "armor": "Armadura de titanio/adamantita",
-          "weapon": "Espada helada/Discos de luz"
+          "armorImage": [{"imagen": "public/data/equipamiento/esqueletron_mayor/melee/armadura_titanio.png",
+          "nombre": "Armadura de titanio"},
+          {"imagen": "public/data/equipamiento/esqueletron_mayor/melee/armadura_adamantita.png",
+          "nombre": "Armadura de adamantita"}],
+          "weapon": "Espada helada/Discos de luz",
+          "weaponImage": [{"imagen": "public/data/equipamiento/esqueletron_mayor/melee/espada_helada.png",
+          "nombre": "Espada helada"}]
         },
         {
           "class": "Ranged",
           "armor": "Armadura de titanio/adamantita",
-          "weapon": "Arco de tormentas de Dedalo/Medula"
+          "armorImage": [{"imagen": "public/data/equipamiento/esqueletron_mayor/ranged/armadura_titanio.png",
+          "nombre": "Armadura de titanio"},
+          {"imagen": "public/data/equipamiento/esqueletron_mayor/ranged/armadura_adamantita.png",
+          "nombre": "Armadura de adamantita"}],
+          "weapon": "Arco de tormentas de Dedalo/Medula",
+          "weaponImage": [{"imagen": "public/data/equipamiento/esqueletron_mayor/ranged/arco_tormentas_dedalo.png",
+          "nombre": "Arco de tormentas de Dedalo"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura prohibida/armadura titanio/adamantita",
-          "weapon": "Fractura celestial/Baculo de meteorito/Muñeca maldita de llamas malditas"
+          "armorImage": [{"imagen": "public/data/equipamiento/esqueletron_mayor/magic/armadura_prohibida.png",
+          "nombre": "Armadura prohibida"}],
+          "weapon": "Fractura celestial/Baculo de meteorito/Muñeca maldita de llamas malditas",
+          "weaponImage": [{"imagen": "public/data/equipamiento/esqueletron_mayor/magic/fractura_celestial.png",
+          "nombre": "Fractura celestial"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura de araña",
-          "weapon": "Baculo Sanguinario/Pirata/de cuchillas y latigo gelido"
+          "armorImage": [{"imagen": "public/data/equipamiento/esqueletron_mayor/summoner/armadura_de_araña.png",
+          "nombre": "Armadura de araña"}],
+          "weapon": "Baculo Sanguinario/Pirata/de cuchillas y latigo gelido",
+          "weaponImage": [{"imagen": "public/data/equipamiento/esqueletron_mayor/summoner/baculo_sanguinario.png",
+          "nombre": "Baculo Sanguinario"},
+          {"imagen": "public/data/equipamiento/esqueletron_mayor/summoner/latigo_gelido.png",
+          "nombre": "Latigo gelido"}]
         }
       ]
     },
@@ -1287,22 +1519,40 @@
         {
           "class": "Melee",
           "armor": "Armadura de clorofita/Tortuga",
-          "weapon": "Espada Terra/De la noche verdadera/ Excalibur verdadero"
+          "armorImage": [{"imagen": "public/data/equipamiento/plantera/melee/armadura_de_clorofita.png",
+          "nombre": "Armadura de clorofita"}],
+          "weapon": "Espada Terra/De la noche verdadera/ Excalibur verdadero",
+          "weaponImage": [{"imagen": "public/data/equipamiento/plantera/melee/espada_terra.png",
+          "nombre": "Espada Terra"}]
         },
         {
           "class": "Ranged",
           "armor": "Armadura de clorofita/ helada",
-          "weapon": "Megatiburon"
+          "armorImage": [{"imagen": "public/data/equipamiento/plantera/ranged/armadura_de_clorofita.png",
+          "nombre": "Armadura de clorofita"}],
+          "weapon": "Megatiburon",
+          "weaponImage": [{"imagen": "public/data/equipamiento/plantera/ranged/megatiburon.png",
+          "nombre": "Megatiburon"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura de clorofita/ sagrada",
-          "weapon": "Varita multicolor/ Arpa magica"
+          "armorImage": [{"imagen": "public/data/equipamiento/plantera/magic/armadura_de_clorofita.png",
+          "nombre": "Armadura de clorofita"}],
+          "weapon": "Varita multicolor/ Arpa magica",
+          "weaponImage": [{"imagen": "public/data/equipamiento/plantera/magic/varita_multicolor.png",
+          "nombre": "Varita multicolor"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura de araña/Sagrada",
-          "weapon": "Baculo Sanguinario/baculo optico y Durendal"
+          "armorImage": [{"imagen": "public/data/equipamiento/plantera/summoner/armadura_de_araña.png",
+          "nombre": "Armadura de araña"}],
+          "weapon": "Baculo Sanguinario/baculo optico y Durendal",
+          "weaponImage": [{"imagen": "public/data/equipamiento/plantera/summoner/baculo_sanguinario.png",
+          "nombre": "Baculo Sanguinario"},
+          {"imagen": "public/data/equipamiento/plantera/summoner/durendal.png",
+          "nombre": "Durendal"}]
         }
       ]
     },
@@ -1402,22 +1652,40 @@
         {
           "class": "Melee",
           "armor": "Armadura de clorofita/Tortuga",
-          "weapon": "Espada Terra/ Martillo del paladin"
+          "armorImage": [{"imagen": "public/data/equipamiento/golem/melee/armadura_de_clorofita.png",
+          "nombre": "Armadura de clorofita"}],
+          "weapon": "Espada Terra/ Martillo del paladin",
+          "weaponImage": [{"imagen": "public/data/equipamiento/golem/melee/espada_terra.png",
+          "nombre": "Espada Terra"}]
         },
         {
           "class": "Ranged",
           "armor": "Armadura de piñonita",
-          "weapon": "Megatiburon/ arco de clorofita"
+          "armorImage": [{"imagen": "public/data/equipamiento/golem/ranged/armadura_de_pinonita.png",
+          "nombre": "Armadura de piñonita"}],
+          "weapon": "Megatiburon/ arco de clorofita",
+          "weaponImage": [{"imagen": "public/data/equipamiento/golem/ranged/megatiburon.png",
+          "nombre": "Megatiburon"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura espectral",
-          "weapon": "Tenedor del infierno/ Esfera magnetica"
+          "armorImage": [{"imagen": "public/data/equipamiento/golem/magic/armadura_espectral.png",
+          "nombre": "Armadura espectral"}],
+          "weapon": "Tenedor del infierno/ Esfera magnetica",
+          "weaponImage": [{"imagen": "public/data/equipamiento/golem/magic/tenedor_del_infierno.png",
+          "nombre": "Tenedor del infierno"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura tetrica/ armadura tiki",
-          "weapon": "Baculo pigmeo/de cuervo y cosecha oscura/Lucero del alba"
+          "armorImage": [{"imagen": "public/data/equipamiento/golem/summoner/armadura_tetrica.png",
+          "nombre": "Armadura tetrica"}],
+          "weapon": "Baculo pigmeo/de cuervo y cosecha oscura/Lucero del alba",
+          "weaponImage": [{"imagen": "public/data/equipamiento/golem/summoner/baculo_de_pigmeo.png",
+          "nombre": "Baculo pigmeo"},
+          {"imagen": "public/data/equipamiento/golem/summoner/lucero_del_alba.png",
+          "nombre": "Lucero del alba"}]
         }
       ]
     },
@@ -1507,22 +1775,40 @@
         {
           "class": "Melee",
           "armor": "Armadura de escarabajo",
-          "weapon": "Espada Terra/ Hacha de mano poseida"
+          "armorImage": [{"imagen": "public/data/equipamiento/duke_fishron/melee/armadura_de_escarabajo.png",
+          "nombre": "Armadura de escarabajo"}],
+          "weapon": "Espada Terra/ Hacha de mano poseida",
+          "weaponImage": [{"imagen": "public/data/equipamiento/duke_fishron/melee/espada_terra.png",
+          "nombre": "Espada Terra"}]
         },
         {
           "class": "Ranged",
           "armor": "Armadura de piñonita",
-          "weapon": "Megatiburon/ arco de clorofita"
+          "armorImage": [{"imagen": "public/data/equipamiento/duke_fishron/ranged/armadura_de_piñonita.png",
+          "nombre": "Armadura de piñonita"}],
+          "weapon": "Megatiburon/ arco de clorofita",
+          "weaponImage": [{"imagen": "public/data/equipamiento/duke_fishron/ranged/megatiburon.png",
+          "nombre": "Megatiburon"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura espectral",
-          "weapon": "Tenedor del infierno/ Cetro de murcielago"
+          "armorImage": [{"imagen": "public/data/equipamiento/duke_fishron/magic/armadura_espectral.png",
+          "nombre": "Armadura espectral"}],
+          "weapon": "Tenedor del infierno/ Cetro de murcielago",
+          "weaponImage": [{"imagen": "public/data/equipamiento/duke_fishron/magic/tenedor_del_infierno.png",
+          "nombre": "Tenedor del infierno"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura tetrica",
-          "weapon": "Baculo de cuervo y cosecha oscura/Lucero del alba"
+          "armorImage": [{"imagen": "public/data/equipamiento/duke_fishron/summoner/armadura_tetrica.png",
+          "nombre": "Armadura tetrica"}],
+          "weapon": "Baculo de cuervo y cosecha oscura/Lucero del alba",
+          "weaponImage": [{"imagen": "public/data/equipamiento/duke_fishron/summoner/baculo_de_cuervo.png",
+          "nombre": "Baculo de cuervo"},
+          {"imagen": "public/data/equipamiento/duke_fishron/summoner/lucero_del_alba.png",
+          "nombre": "Lucero del alba"}]
         }
       ]
     },
@@ -1622,22 +1908,40 @@
         {
           "class": "Melee",
           "armor": "Armadura de escarabajo",
-          "weapon": "Espada Terra/ Dragon volador"
+          "armorImage": [{"imagen": "public/data/equipamiento/emperatriz_de_la_luz/melee/armadura_de_escarabajo.png",
+          "nombre": "Armadura de escarabajo"}],
+          "weapon": "Espada Terra/ Dragon volador",
+          "weaponImage": [{"imagen": "public/data/equipamiento/emperatriz_de_la_luz/melee/espada_terra.png",
+          "nombre": "Espada Terra"}]
         },
         {
           "class": "Ranged",
           "armor": "Armadura de piñonita",
-          "weapon": "Metralleta/ tsunami"
+          "armorImage": [{"imagen": "public/data/equipamiento/emperatriz_de_la_luz/ranged/armadura_de_piñonita.png",
+          "nombre": "Armadura de piñonita"}],
+          "weapon": "Metralleta/ tsunami",
+          "weaponImage": [{"imagen": "public/data/equipamiento/emperatriz_de_la_luz/ranged/metralleta.png",
+          "nombre": "Metralleta"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura espectral",
-          "weapon": "Tifon de cuchillas/ Ira de Betsy"
+          "armorImage": [{"imagen": "public/data/equipamiento/emperatriz_de_la_luz/magic/armadura_espectral.png",
+          "nombre": "Armadura espectral"}],
+          "weapon": "Tifon de cuchillas/ Ira de Betsy",
+          "weaponImage": [{"imagen": "public/data/equipamiento/emperatriz_de_la_luz/magic/tifon_de_cuchillas.png",
+          "nombre": "Tifon de cuchillas"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura tetrica",
-          "weapon": "Baculo de cuervo y Lucero del alba"
+          "armorImage": [{"imagen": "public/data/equipamiento/emperatriz_de_la_luz/summoner/armadura_tetrica.png",
+          "nombre": "Armadura tetrica"}],
+          "weapon": "Baculo de cuervo y Lucero del alba",
+          "weaponImage": [{"imagen": "public/data/equipamiento/emperatriz_de_la_luz/summoner/baculo_de_cuervo.png",
+          "nombre": "Baculo de cuervo"},
+          {"imagen": "public/data/equipamiento/emperatriz_de_la_luz/summoner/lucero_del_alba.png",
+          "nombre": "Lucero del alba"}]
         }
       ]
     },
@@ -1692,22 +1996,40 @@
         {
           "class": "Melee",
           "armor": "Armadura de escarabajo",
-          "weapon": "Espada Terra/ Dragon volador"
+          "armorImage": [{"imagen": "public/data/equipamiento/sectario_lunatico/melee/armadura_de_escarabajo.png",
+          "nombre": "Armadura de escarabajo"}],
+          "weapon": "Espada Terra/ Dragon volador",
+          "weaponImage": [{"imagen": "public/data/equipamiento/sectario_lunatico/melee/espada_terra.png",
+          "nombre": "Espada Terra"}]
         },
         {
           "class": "Ranged",
           "armor": "Armadura de piñonita",
-          "weapon": "Metralleta/ tsunami"
+          "armorImage": [{"imagen": "public/data/equipamiento/sectario_lunatico/ranged/armadura_de_piñonita.png",
+          "nombre": "Armadura de piñonita"}],
+          "weapon": "Metralleta/ tsunami",
+          "weaponImage": [{"imagen": "public/data/equipamiento/sectario_lunatico/ranged/metralleta.png",
+          "nombre": "Metralleta"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura espectral",
-          "weapon": "Tifon de cuchillas/ Ira de Betsy"
+          "armorImage": [{"imagen": "public/data/equipamiento/sectario_lunatico/magic/armadura_espectral.png",
+          "nombre": "Armadura espectral"}],
+          "weapon": "Tifon de cuchillas/ Ira de Betsy",
+          "weaponImage": [{"imagen": "public/data/equipamiento/sectario_lunatico/magic/tifon_de_cuchillas.png",
+          "nombre": "Tifon de cuchillas"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura tetrica",
-          "weapon": "Baculo de cuervo y Lucero del alba"
+          "armorImage": [{"imagen": "public/data/equipamiento/sectario_lunatico/summoner/armadura_tetrica.png",
+          "nombre": "Armadura tetrica"}],
+          "weapon": "Baculo de cuervo y Lucero del alba",
+          "weaponImage": [{"imagen": "public/data/equipamiento/sectario_lunatico/summoner/baculo_de_cuervo.png",
+          "nombre": "Baculo de cuervo"},
+          {"imagen": "public/data/equipamiento/sectario_lunatico/summoner/lucero_del_alba.png",
+          "nombre": "Lucero del alba"}]
         }
       ]
     },
@@ -1837,22 +2159,40 @@
         {
           "class": "Melee",
           "armor": "Armadura de escarabajo",
-          "weapon": "Erupcion solar/ amanecer"
+          "armorImage": [{"imagen": "public/data/equipamiento/moonlord/melee/armadura_de_escarabajo.png",
+          "nombre": "Armadura de escarabajo"}],
+          "weapon": "Erupcion solar/ amanecer",
+          "weaponImage": [{"imagen": "public/data/equipamiento/moonlord/melee/erupcion_solar.png",
+          "nombre": "Erupcion solar"}]
         },
         {
           "class": "Ranged",
           "armor": "Armadura de piñonita",
-          "weapon": "Muerte aerea/ fantasma"
+          "armorImage": [{"imagen": "public/data/equipamiento/moonlord/ranged/armadura_de_piñonita.png",
+          "nombre": "Armadura de piñonita"}],
+          "weapon": "Muerte aerea/ fantasma",
+          "weaponImage": [{"imagen": "public/data/equipamiento/moonlord/ranged/muerte_aerea.png",
+          "nombre": "Muerte aerea"}]
         },
         {
           "class": "Magic",
           "armor": "Armadura espectral",
-          "weapon": "Llama de nebulosa/ Arcanum de nebulosa"
+          "armorImage": [{"imagen": "public/data/equipamiento/moonlord/magic/armadura_espectral.png",
+          "nombre": "Armadura espectral"}],
+          "weapon": "Llama de nebulosa/ Arcanum de nebulosa",
+          "weaponImage": [{"imagen": "public/data/equipamiento/moonlord/magic/llama_de_nebulosa.png",
+          "nombre": "Llama de nebulosa"}]
         },
         {
           "class": "Summoner",
           "armor": "Armadura tetrica",
-          "weapon": "Terraprisma y Caleidoscopio"
+          "armorImage": [{"imagen": "public/data/equipamiento/moonlord/summoner/armadura_tetrica.png",
+          "nombre": "Armadura tetrica"}],
+          "weapon": "báculo de dragón de polvo estelar  y Caleidoscopio",
+          "weaponImage": [{"imagen": "public/data/equipamiento/moonlord/summoner/baculo_de_dragon_de_polvo_estelar.png",
+          "nombre": "Baculo de dragón de polvo estelar"},
+          {"imagen": "public/data/equipamiento/moonlord/summoner/caleidoscopio.png",
+          "nombre": "Caleidoscopio"}]
         }
       ]
     }

@@ -121,6 +121,8 @@ footer {
 .dataJefes{  
     height: auto;
     flex: 1;
+    overflow-y: scroll;
+    padding-right: 10px;
 }	
 .dataJefes p{
     padding-bottom: 15px;  
@@ -131,13 +133,13 @@ footer {
     flex-direction: column;
     background-color:  rgba(22,22,29,0.8);
     width: 75%;
-    height: 100%;
+    height: 80%;
 }
 
 .topCompEvent{
     flex: 2;
     display: flex;
-    max-height: 40%;
+    max-height: 60%;
 }
 .eventIzq{
     object-fit: contain;
@@ -152,17 +154,21 @@ footer {
 
 }
 .summonData{
-    background-color: black;
+    overflow-y: scroll;
+    max-height: 100px;
+    padding-top: 10px;
+}
+.itemData{
+    padding-top: 10px;
 }
 
 .eventBoss{
     background-color: #0b0b94;
-    max-height: 30%;
+    max-height: 20%;
 }
 
 .lootEvent{
-    background-color: #4646b1;
-    max-height: 30%;
+    max-height: 20%;
 }
 
 .imageEvent{
@@ -172,6 +178,19 @@ footer {
     align-items: center;
     width: 25%;
     aspect-ratio: 1/1;
+    height: 100px;
+    width: 300px;
+    margin: 1px 1px 50px 1px;
+}
+
+.eventSum{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    aspect-ratio: 1/1;
+    margin: 1px 1px 50px 1px;
 }
 
 .drop{

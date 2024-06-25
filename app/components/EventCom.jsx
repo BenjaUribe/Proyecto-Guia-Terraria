@@ -5,7 +5,10 @@ import {
     AccordionButton,
     AccordionPanel,
     AccordionIcon,
-    Box 
+    Box,
+    List,
+    ListItem,
+    Flex
   } from '@chakra-ui/react'
 
 function EventCom({ sProp }) {
@@ -18,11 +21,13 @@ function EventCom({ sProp }) {
         <div className="topCompEvent">
 
             <div className="eventIzq">
-                <div className="imageEvent">
-                    {currentEvent && (<img src={currentEvent.eventImage} alt={sProp} />)}
+                <div className="eventSum">
+                    {currentEvent && (<img src={currentEvent.summonImage} alt={sProp} />)}
                 </div>
-                <p>Item: {currentEvent.summonItem}</p>
-                <p>Crafteo: {currentEvent.craft}</p>
+                <div className="itemData">                    
+                    <p>Item: {currentEvent.summonItem}</p>
+                    <p>Crafteo: {currentEvent.craft}</p>
+                </div>
             </div>
 
             <div className="eventDer">
@@ -44,7 +49,6 @@ function EventCom({ sProp }) {
         </div>
 
         <div className="lootEvent">
-            Fila de los loots
             <Accordion defaultIndex={[0]} allowMultiple>
                 <AccordionItem>
                     <h2>
@@ -56,18 +60,19 @@ function EventCom({ sProp }) {
                         </AccordionButton>
                     </h2>
                     <AccordionPanel className="drop" pb={4}>
-                        <p>text</p>
-                        <p>text</p>
-                        <p>text</p>
-                        <p>text</p>
-                        <p>text</p>
-                        <p>text</p>
-                        <p>text</p>
-                        <p>text</p>
-                        <p>text</p>
-                        <p>text</p>
-                        <p>text</p>
-                        <p>text</p>
+                    {currentEvent && currentEvent.loot && (
+                    <List>
+                        {currentEvent.loot.map((drop)=> (
+                        <ListItem key={drop.item}>
+                            <Flex style={{alignItems: 'center',justifyContent: 'space-between'}}>
+                            <p id={`drop-${drop.item}`}>
+                            - {drop.item}
+                            </p>
+                            </Flex>
+                        </ListItem>
+                        ))}
+                    </List>
+                    )}
                     </AccordionPanel>
                 </AccordionItem>
             </Accordion>
