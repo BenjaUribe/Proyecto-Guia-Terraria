@@ -23,11 +23,8 @@ const ClasCom = ({ selectedOption, classes}) => {
 
   return (
     <Box>
-      {selectedOption && <p>Clase Seleccionada: {selectedOption}</p>}
-      <Box>
-      {class_armor}
-      {class_weapon}
-      </Box>
+      {selectedOption && <p>Clase seleccionada: {selectedOption}</p>}
+      <p>Items recomendados:</p>
     </Box>
   );
 };
