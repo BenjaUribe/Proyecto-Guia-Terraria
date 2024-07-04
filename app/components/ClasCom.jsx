@@ -24,7 +24,6 @@ const ClasCom = ({ selectedOption, classes}) => {
   return (
     <Box>
       {selectedOption && <p>Clase seleccionada: {selectedOption}</p>}
-      <p>Items recomendados:</p>
     </Box>
   );
 };

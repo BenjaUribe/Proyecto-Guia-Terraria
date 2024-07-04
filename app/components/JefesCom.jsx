@@ -6,7 +6,8 @@ import { Menu, MenuItem, MenuButton, Button, MenuList, Accordion,
   AccordionButton,
   AccordionPanel,
   AccordionIcon, Box,
-  List,ListItem, Flex, Tooltip } from '@chakra-ui/react';
+  List,ListItem, Flex, Tooltip,
+  MenuOptionGroup, MenuDivider, Text } from '@chakra-ui/react';
 import Image from 'next/image';
   
 
@@ -58,24 +59,13 @@ function JefesCom({ sProp }) {
   return (
     <main className="compJefes">
 
-      <div className="topComp">
-        <div className="invocador">
-          <div className="imgInv">
-            {currentBoss && (<Image src={currentBoss.bossSummon.summonImage} alt={sProp} width={100} height={100} />)}
-          </div>
-
-          <div className="dataInv">
-              <p style={{ textDecoration: 'underline' }}>{currentBoss.bossSummon.item}</p>
-              <p>Crafteo: {currentBoss.bossSummon.craft}</p>
-          </div>
-        </div>
-
-        <div className="mid">
+      <div className="leftComp">
+        <div className="jefe">
           <div className="imageJefes">
-            {currentBoss && (<Image src={currentBoss.bossImage} alt={sProp} width={200} height={200} />)}
+            {currentBoss && (<Image src={currentBoss.bossImage} alt={sProp} width={250} height={250} />)}
           </div>
           <div className="dataJefes">
-            <p style={{textDecoration: 'underline', fontSize: '1.5em'}}>{currentBoss.bossName}</p>
+            <p style={{fontSize: '1.5em'}}><b>{currentBoss.bossName}</b></p>
             <p>Vida en Normal: {vida}</p>
             <p>Vida en Experto: {vida2}</p>
             <p>Vida en Maestro: {vida3}</p>
@@ -84,80 +74,97 @@ function JefesCom({ sProp }) {
             <p>Ataque en Experto: {atq2}</p> 
             <p>Ataque en Maestro: {atq3}</p> 
           </div>
+          <div className="bioma">
+            <p>Bioma</p>
+            {currentBoss && (<Image src={currentBoss.bossSummon.biome} alt={sProp} width={150} height={150} />)}
+          </div>
         </div>
+        <div className="loot">  
+          <Accordion defaultIndex={[0]} allowMultiple>
+          <AccordionItem>
+            <h2>
+              <AccordionButton bg="rgba(256,22,150,0.2)" color="white"
+               _hover={{bg: "rgba(256,22,150,0.3)"}} _expanded={{bg: "rgba(256,22,150,0.3)"}}>
+                  <b>Loot</b>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel className="drop" pb={4} bg="rgba(152,22,150,0.2)">
+                {currentBoss && currentBoss.drop && (
+                <List>
+                  {currentBoss.drop.map((drop)=> (
+                    <ListItem key={drop.item}>
+                      <Flex style={{alignItems: 'center',justifyContent: 'space-between'}}>
+                      <p id={`drop-${drop.item}`}>
+                        {drop.item} --- {validarExpert(drop.expert)} Y {validarMaster(drop.master)}
+                      </p>
+                      </Flex>
+                    </ListItem>
+                  ))}
+                </List>
+                )}
+            </AccordionPanel>
+          </AccordionItem>
+          </Accordion>
+        </div>
+      </div>
 
-        <div className="bioma">
-          <div className="imgBioma">
-            {currentBoss && (<Image src={currentBoss.bossSummon.biome} alt={sProp} width={100} height={100} />)}
+      <div className="rightComp">
+        <div className="invocacion">
+          <b>Invocacion</b>
+          <p>{currentBoss.bossSummon.description}</p>
+        </div>
+        <div className="invocador">
+          <div className="imgInv">
+            {currentBoss && (<Image src={currentBoss.bossSummon.summonImage} alt={sProp} width={100} height={100} />)}
           </div>
-          <div className="dataBioma">
-            <p>{currentBoss.bossSummon.description}</p>
+          <div className="dataInv">
+            <p><b>{currentBoss.bossSummon.item}</b></p>
+            <p>Crafteo: {currentBoss.bossSummon.craft}</p>
           </div>
         </div>
-      </div>
-      
-      <div className="contMid">  
-        <Accordion defaultIndex={[0]} allowMultiple>
-        <AccordionItem>
-          <h2>
-            <AccordionButton>
-              <Box as='span' flex='1' textAlign='left'>
-                Loot
-              </Box>
-              <AccordionIcon />
-            </AccordionButton>
-          </h2>
-          <AccordionPanel className="drop" pb={4}>
-              {currentBoss && currentBoss.drop && (
-              <List>
-                {currentBoss.drop.map((drop)=> (
-                  <ListItem key={drop.item}>
-                    <Flex style={{alignItems: 'center',justifyContent: 'space-between'}}>
-                    <p id={`drop-${drop.item}`}>
-                      {drop.item} --- {validarExpert(drop.expert)} Y {validarMaster(drop.master)}
-                    </p>
-                    </Flex>
-                  </ListItem>
-                ))}
-              </List>
-              )}
-          </AccordionPanel>
-        </AccordionItem>
-        </Accordion>
-      </div>
-        
-      <div className="contInf">
-        <Menu>
-          <MenuButton as={Button} colorScheme='pink'>
-              Clases
-          </MenuButton>
-          <ClasCom selectedOption={selectedOption} classes={currentBoss.classes}/>
-          <MenuList>
-              <MenuItem color='red' onClick={() => handleOptionChange('Melee')}>
-                <Tooltip label="Melee">
-                  <span>Melee</span>
-                </Tooltip>
-              </MenuItem>
-              <MenuItem color='red' onClick={() => handleOptionChange('Ranged')}>
-                <Tooltip label="Melee">
-                  <span>Rango</span>
-                </Tooltip>
-              </MenuItem>
-              <MenuItem color='red' onClick={() => handleOptionChange('Magic')}>
-                <Tooltip label="Melee">
-                  <span>Mago</span>
-                </Tooltip>
-              </MenuItem>
-              <MenuItem color='red' onClick={() => handleOptionChange('Summoner')}>
-                <Tooltip label="Melee">
-                  <span>Invocador</span>
-                </Tooltip>
-              </MenuItem>
-           </MenuList>
+        <div className="recomendados">  
+          <Menu>
+            <MenuButton as={Button} bg="rgba(256,22,150,0.4)" color='white'
+             _hover={{bg: "rgba(256,22,150,0.4)"}} _expanded={{bg: "rgba(256,22,150,0.4)"}}>
+                Items recomendados
+            </MenuButton>
+            <ClasCom selectedOption={selectedOption} classes={currentBoss.classes}/>
+            <MenuList bg="rgba(86,0,120,0.9)">
+              <Text textAlign="center" color="white">
+                Selecciona una clase
+              </Text>
+              <MenuDivider />
+                <MenuItem color='white' bg="rgba(86,0,120,0.9)" _hover={{bg:"rgba(256,22,150,0.3)"}} 
+                 onClick={() => handleOptionChange('Melee')}>
+                  <Tooltip>
+                    <span>Melee</span>
+                  </Tooltip>
+                </MenuItem>
+                <MenuItem color='white' bg="rgba(86,0,120,0.9)" _hover={{bg:"rgba(256,22,150,0.3)"}} 
+                 onClick={() => handleOptionChange('Ranged')}>
+                  <Tooltip>
+                    <span>Rango</span>
+                  </Tooltip>
+                </MenuItem>
+                <MenuItem color='white' bg="rgba(86,0,120,0.9)" _hover={{bg:"rgba(256,22,150,0.3)"}} 
+                 onClick={() => handleOptionChange('Magic')}>
+                  <Tooltip>
+                    <span>Mago</span>
+                  </Tooltip>
+                </MenuItem>
+                <MenuItem color='white' bg="rgba(86,0,120,0.9)" _hover={{bg:"rgba(256,22,150,0.3)"}} 
+                 onClick={() => handleOptionChange('Summoner')}>
+                  <Tooltip>
+                    <span>Invocador</span>
+                  </Tooltip>
+                </MenuItem>
+              </MenuList>
           </Menu>
           {mostrarItems(selectedOption)}
+        </div>
       </div>
-
+       
     </main>
   );
   }

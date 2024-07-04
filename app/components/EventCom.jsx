@@ -20,46 +20,62 @@ function EventCom({ sProp }) {
 
         <div className="topCompEvent">
 
-            <div className="eventIzq">
+            <div className="imageEvent">
+                {currentEvent && (<img src={currentEvent.eventImage} alt={sProp} width={300} height={150}/>)}
+            </div>
+    
+            <div className="summonData">    
+                <p style={{fontSize: '1.5em'}}><b>{currentEvent.eventName}</b></p>
+                <p>Invocación:</p> 
+                <p>{currentEvent.summon}</p>        
+            </div>
+
+            <div className="eventDer">
                 <div className="eventSum">
-                    {currentEvent && (<img src={currentEvent.summonImage} alt={sProp} />)}
+                    {currentEvent && (<img src={currentEvent.summonImage} alt={sProp} width={100} height={100}/>)}
                 </div>
                 <div className="itemData">                    
-                    <p>Item: {currentEvent.summonItem}</p>
+                    <p><b>{currentEvent.summonItem}</b></p>
                     <p>Crafteo: {currentEvent.craft}</p>
                 </div>
             </div>
 
-            <div className="eventDer">
-                <div className="imageEvent">
-                    {currentEvent && (<img src={currentEvent.eventImage} alt={sProp} />)}
-                </div>
-
-                <div className="summonData">    
-                        <p>Nombre: {currentEvent.eventName}</p>
-                        <p>Orden: {currentEvent.order}</p>
-                        <p>Invocación: {currentEvent.summon}</p>        
-                </div>
-            </div>
-
         </div>
 
-        <div className="eventBoss">
-            Fila de los bosses de evento
-        </div>
 
-        <div className="lootEvent">
+        <div className="bottomCompEvent">
+            <div className="eventBoss">
             <Accordion defaultIndex={[0]} allowMultiple>
-                <AccordionItem>
+                <AccordionItem >
                     <h2>
-                        <AccordionButton>
+                        <AccordionButton bg="rgba(50,22,2560,0.2)" color="white"
+                         _hover={{bg: "rgba(50,22,2560,0.3)"}} _expanded={{bg: "rgba(50,22,2560,0.3)"}}>
                         <Box as='span' flex='1' textAlign='left'>
-                            Loot
+                            <b>Bosses del evento</b>
                         </Box>
                         <AccordionIcon />
                         </AccordionButton>
                     </h2>
-                    <AccordionPanel className="drop" pb={4}>
+                    <AccordionPanel className="drop" pb={4} bg="rgba(152,22,150,0.2)">
+                       pega de caler
+                    </AccordionPanel>
+                </AccordionItem>
+            </Accordion>
+        </div>
+
+        <div className="lootEvent">
+            <Accordion defaultIndex={[0]} allowMultiple>
+                <AccordionItem >
+                    <h2>
+                        <AccordionButton bg="rgba(256,22,150,0.2)" color="white"
+                         _hover={{bg: "rgba(256,22,150,0.3)"}} _expanded={{bg: "rgba(256,22,150,0.3)"}}>
+                        <Box as='span' flex='1' textAlign='left'>
+                            <b>Loot</b>
+                        </Box>
+                        <AccordionIcon />
+                        </AccordionButton>
+                    </h2>
+                    <AccordionPanel className="drop" pb={4} bg="rgba(152,22,150,0.2)">
                     {currentEvent && currentEvent.loot && (
                     <List>
                         {currentEvent.loot.map((drop)=> (
@@ -76,8 +92,8 @@ function EventCom({ sProp }) {
                     </AccordionPanel>
                 </AccordionItem>
             </Accordion>
-        </div>
-        
+            </div>
+        </div>        
       </main>
     );
     }
