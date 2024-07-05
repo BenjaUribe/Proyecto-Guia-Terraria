@@ -56,13 +56,13 @@ function EventCom({ sProp }) {
                         <AccordionIcon />
                         </AccordionButton>
                     </h2>
-                    <AccordionPanel className="drop" pb={4} bg="rgba(152,22,150,0.2)">
+                <AccordionPanel className="boss" pb={4} bg="rgba(152,22,150,0.2)">
                     {currentEvent && currentEvent.eventBosses && (
                     <List>  
                         {currentEvent.eventBosses.map((boss)=> (
                         <ListItem key={boss.Boss}>
                             <Flex style={{alignItems: 'center',justifyContent: 'space-between'}}>
-                            <p id={`drop-${boss.Boss}`}>
+                            <p id={`boss-${boss.Boss}`}>
                             - {boss.Boss}
                             </p>
                             </Flex>
@@ -70,6 +70,10 @@ function EventCom({ sProp }) {
                         ))}
                     </List>
                     )}
+                    {!currentEvent.eventBosses && (
+                            
+                            <p>No hay información para desplegar</p>
+                            )}
                     </AccordionPanel>
                 </AccordionItem>
             </Accordion>
