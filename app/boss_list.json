@@ -702,7 +702,7 @@
         "item": "Trasto de ciervo",
         "description": "Se invoca usando un trasto de ciervo en la tundra",
         "craft": "Se craftea con 3 piel de copito, 5 mineral endemoniado/carmesi y 1 lente en un altar demoniaco",
-        "summonImage": "/data/boss_summon/cierviclope.png",
+        "summonImage": "/data/boss_summon/Cierviclope.png",
         "biome": "/data/biomes/tundra.png"
       },
       "stats": {
