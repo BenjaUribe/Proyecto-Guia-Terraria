@@ -80,7 +80,7 @@ function JefesCom({ sProp }) {
           </div>
         </div>
         <div className="loot">  
-          <Accordion defaultIndex={[0]} allowMultiple>
+          <Accordion defaultIndex={[]} allowMultiple>
           <AccordionItem>
             <h2>
               <AccordionButton bg="rgba(256,22,150,0.2)" color="white"
@@ -96,7 +96,7 @@ function JefesCom({ sProp }) {
                     <ListItem key={drop.item}>
                       <Flex style={{alignItems: 'center',justifyContent: 'space-between'}}>
                       <p id={`drop-${drop.item}`}>
-                        {drop.item} --- {validarExpert(drop.expert)} Y {validarMaster(drop.master)}
+                        {drop.item} --- {validarExpert(drop.expert)}. {validarMaster(drop.master)}
                       </p>
                       </Flex>
                     </ListItem>
@@ -143,19 +143,19 @@ function JefesCom({ sProp }) {
                   </Tooltip>
                 </MenuItem>
                 <MenuItem color='white' bg="rgba(86,0,120,0.9)" _hover={{bg:"rgba(256,22,150,0.3)"}} 
-                 onClick={() => handleOptionChange('Ranged')}>
+                 onClick={() => handleOptionChange('Rango')}>
                   <Tooltip>
                     <span>Rango</span>
                   </Tooltip>
                 </MenuItem>
                 <MenuItem color='white' bg="rgba(86,0,120,0.9)" _hover={{bg:"rgba(256,22,150,0.3)"}} 
-                 onClick={() => handleOptionChange('Magic')}>
+                 onClick={() => handleOptionChange('Mago')}>
                   <Tooltip>
                     <span>Mago</span>
                   </Tooltip>
                 </MenuItem>
                 <MenuItem color='white' bg="rgba(86,0,120,0.9)" _hover={{bg:"rgba(256,22,150,0.3)"}} 
-                 onClick={() => handleOptionChange('Summoner')}>
+                 onClick={() => handleOptionChange('Invocador')}>
                   <Tooltip>
                     <span>Invocador</span>
                   </Tooltip>

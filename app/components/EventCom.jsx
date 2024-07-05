@@ -45,7 +45,7 @@ function EventCom({ sProp }) {
 
         <div className="bottomCompEvent">
             <div className="eventBoss">
-            <Accordion defaultIndex={[0]} allowMultiple>
+            <Accordion defaultIndex={[]} allowMultiple>
                 <AccordionItem >
                     <h2>
                         <AccordionButton bg="rgba(50,22,2560,0.2)" color="white"
@@ -80,7 +80,7 @@ function EventCom({ sProp }) {
         </div>
 
         <div className="lootEvent">
-            <Accordion defaultIndex={[0]} allowMultiple>
+            <Accordion defaultIndex={[]} allowMultiple>
                 <AccordionItem >
                     <h2>
                         <AccordionButton bg="rgba(256,22,150,0.2)" color="white"
