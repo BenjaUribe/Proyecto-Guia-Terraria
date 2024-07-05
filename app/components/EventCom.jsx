@@ -71,8 +71,7 @@ function EventCom({ sProp }) {
                     </List>
                     )}
                     {!currentEvent.eventBosses && (
-                            
-                            <p>No hay información para desplegar</p>
+                            <p>Este evento no tiene bosses</p>
                             )}
                     </AccordionPanel>
                 </AccordionItem>
