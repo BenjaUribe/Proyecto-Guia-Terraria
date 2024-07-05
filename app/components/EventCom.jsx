@@ -57,7 +57,19 @@ function EventCom({ sProp }) {
                         </AccordionButton>
                     </h2>
                     <AccordionPanel className="drop" pb={4} bg="rgba(152,22,150,0.2)">
-                       pega de caler
+                    {currentEvent && currentEvent.eventBosses && (
+                    <List>  
+                        {currentEvent.eventBosses.map((boss)=> (
+                        <ListItem key={boss.Boss}>
+                            <Flex style={{alignItems: 'center',justifyContent: 'space-between'}}>
+                            <p id={`drop-${boss.Boss}`}>
+                            - {boss.Boss}
+                            </p>
+                            </Flex>
+                        </ListItem>
+                        ))}
+                    </List>
+                    )}
                     </AccordionPanel>
                 </AccordionItem>
             </Accordion>

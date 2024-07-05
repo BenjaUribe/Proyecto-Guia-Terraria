@@ -108,6 +108,7 @@ function JefesCom({ sProp }) {
           </Accordion>
         </div>
       </div>
+      
 
       <div className="rightComp">
         <div className="invocacion">
