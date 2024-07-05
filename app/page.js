@@ -6,7 +6,7 @@ import EventCom from './components/EventCom.jsx';
 import  CheckBoxGroup  from './components/CheckBoxCom.jsx';
 import  CheckBoxGroup2  from './components/CheckBoxCom2.jsx';
 import { useRouter } from 'next/navigation';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel, List, ListItem, Box, Flex} from '@chakra-ui/react';
 
 /*
@@ -20,6 +20,9 @@ export default function Home() {
   const router = useRouter();
   const [itemSeleccionado, setItemSeleccionado] = useState({ tipo:'jefe', nombre:'Rey Slime' })
   
+  const clickCountRef = useRef(0);
+  const clickTimeoutRef = useRef(null);
+
   useEffect(() => {
     if (router.query) {
       const { tipo, nombre } = router.query;
@@ -44,13 +47,26 @@ export default function Home() {
     return null;
   };
 
+  const easterEgg = () => {
+    clickCountRef.current += 1;
+    if (clickTimeoutRef.current) {
+      clearTimeout(clickTimeoutRef.current);
+    }
+    clickTimeoutRef.current = setTimeout(() => {
+      if (clickCountRef.current >= 5) {
+        window.open('/data/bosses.mp4', '_blank');
+      }
+      clickCountRef.current = 0;
+    }, 150);
+  };
+
   return (
     <main className="main">
       <div>
         <h1 className='text'>Guía de progresión Terraria</h1>
         <Tabs variant='soft-rounded' colorScheme='green'>
           <TabList>
-            <Tab>Bosses</Tab>
+            <Tab onClick={easterEgg}>Bosses</Tab>
             <Tab>Eventos</Tab>
           </TabList>
           <TabPanels style={{color: 'white'}}>
