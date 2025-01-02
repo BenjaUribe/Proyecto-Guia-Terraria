@@ -123,7 +123,7 @@ export default function Home() {
       </div>
 
       <footer>
-        <p> Copyright © {currentYear} "Exquizos". Chile.</p>
+        <p> Copyright © 2024 - {currentYear} "Exquizos". Chile.</p>
       </footer>
     </main>
   );
